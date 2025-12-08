@@ -1,0 +1,2270 @@
+WEBVTT
+
+00:00:01.130 --> 00:00:02.390
+<v Andy Byers> Andy Byers: is being recorded.
+
+00:00:02.390 --> 00:00:03.989
+<v Meredith Martin> Meredith Martin:  Awesome. I thought that was loud.
+
+00:00:04.770 --> 00:00:05.630
+<v Meredith Martin> Meredith Martin:  Bye.
+
+00:00:09.130 --> 00:00:10.590
+<v Meredith Martin> Meredith Martin:  Everybody ready?
+
+00:00:11.800 --> 00:00:13.420
+<v Andy Byers> Andy Byers: Everyone ready to be bored?
+
+00:00:13.700 --> 00:00:15.080
+<v Meredith Martin> Meredith Martin:  Bored, are you kidding.
+
+00:00:15.300 --> 00:00:22.889
+<v Andy Byers> Andy Byers: Yeah, you're gonna listen to me talk for an hour, that's the problem. The system's great, it's my voice that's gonna put you to sleep.
+
+00:00:22.890 --> 00:00:25.429
+<v Meredith Martin> Meredith Martin:  We have a beautiful, beautiful dialect.
+
+00:00:25.700 --> 00:00:27.919
+<v Meredith Martin> Meredith Martin:  And I would listen to you read anything.
+
+00:00:29.560 --> 00:00:31.870
+<v Andy Byers> Andy Byers: Can I get permission to share a screen?
+
+00:00:31.870 --> 00:00:33.730
+<v Meredith Martin> Meredith Martin:  Yes, of course, just a moment.
+
+00:00:34.450 --> 00:00:36.950
+<v Meredith Martin> Meredith Martin:  How do I give that to you?
+
+00:00:38.380 --> 00:00:42.679
+<v Meredith Martin> Meredith Martin:  To make me a presenter, I think. I know. Oh, there we go, multiple… there we go.
+
+00:00:42.680 --> 00:00:44.970
+<v Andy Byers> Andy Byers: Sorry, I just hit the wrong button.
+
+00:00:44.970 --> 00:00:51.369
+<v Meredith Martin> Meredith Martin:  Amelie, I'm so glad you're here, and I love your red sweater with your red interior vest thing. That is tight.
+
+00:00:52.310 --> 00:00:57.959
+<v Amelia Acker> Amelia Acker:  Yeah, I feel like red and purple are… should be combined more often.
+
+00:00:57.960 --> 00:00:59.120
+<v Meredith Martin> Meredith Martin:  100%, 100%.
+
+00:00:59.840 --> 00:01:11.060
+<v Meredith Martin> Meredith Martin:  Not to interrupt, but I just realized not everybody knows everyone. Can we just quickly say who we are? Because I think Rebecca Kozer's here, and I don't know that any of you know her. Is that okay if we just quickly say who we are?
+
+00:01:11.060 --> 00:01:11.910
+<v Andy Byers> Andy Byers: Yeah, absolutely.
+
+00:01:11.910 --> 00:01:15.099
+<v Meredith Martin> Meredith Martin:  Great, okay. So, you start, Andy.
+
+00:01:15.250 --> 00:01:24.910
+<v Andy Byers> Andy Byers: I'm Andy Byers, I'm the Director of Publishing Technology at Birkbeck University of London, and also part of the Open Library of Humanities.
+
+00:01:25.450 --> 00:01:26.820
+<v Meredith Martin> Meredith Martin:  Excellent. Amelia?
+
+00:01:27.610 --> 00:01:34.750
+<v Amelia Acker> Amelia Acker:  Hi, I'm Amelia Ecker, I'm at Rutgers School of Communication and Information. I'm part of the editorial collective of JCA.
+
+00:01:35.600 --> 00:01:36.779
+<v Meredith Martin> Meredith Martin:  Or Davis.
+
+00:01:38.640 --> 00:01:48.090
+Odalis Garcia Gorra: Hi, I'm Hodalis. I am an editorial assistant here at JCA and a PhD candidate at UT Austin in American Studies.
+
+00:01:48.800 --> 00:01:49.730
+<v Meredith Martin> Meredith Martin:  Lily.
+
+00:01:50.140 --> 00:02:05.699
+<v Lily Brewer> Lily Brewer:  I'm Lily Brewer, I'm in, I got my PhD with Sarah, at University of Pittsburgh. Right now I work a corporate job, but I'm very excited to be on the editorial team here, here at JCA.
+
+00:02:06.450 --> 00:02:07.979
+<v Meredith Martin> Meredith Martin:  Lily is the copy editor.
+
+00:02:07.980 --> 00:02:08.970
+<v Lily Brewer> Lily Brewer:  The copy editor, yes.
+
+00:02:08.970 --> 00:02:09.860
+<v Meredith Martin> Meredith Martin:  death.
+
+00:02:10.630 --> 00:02:11.640
+<v Meredith Martin> Meredith Martin:  Sarah?
+
+00:02:12.730 --> 00:02:22.930
+<v Sarah Reiff Conell> Sarah Reiff Conell:  Hi, I'm Sarah Reif-Connell, Research Data Management Specialist here at Princeton University, and then editor of C19 Data Collective, helping out with data things here.
+
+00:02:23.490 --> 00:02:24.700
+<v Meredith Martin> Meredith Martin:  So we're gonna figure…
+
+00:02:41.510 --> 00:02:43.380
+<v Meredith Martin> Meredith Martin:  Rebecca.
+
+00:02:44.490 --> 00:02:52.879
+<v Rebecca Koeser> Rebecca Koeser:  Hi, everyone. I'm Rebecca Kozer, I'm the lead research software engineer at the Center for Digital Humanities at Princeton, so I work with Meredith in other capacities.
+
+00:02:53.250 --> 00:03:00.480
+<v Rebecca Koeser> Rebecca Koeser:  I have a background in English literature and computer science, and have worked on other publication systems, so super excited to get a peek into Janeway.
+
+00:03:01.260 --> 00:03:08.679
+<v Meredith Martin> Meredith Martin:  All right, thanks everyone. So let's, unmute when we have questions, mute otherwise because of the Zoom, and we'll let Andy take it away.
+
+00:03:09.150 --> 00:03:23.840
+<v Andy Byers> Andy Byers: Yeah, so absolutely feel free to interrupt me as we go along, because it's much easier to answer questions while we're looking at stuff. So I'm going to take you through the workflow, we're going to start by submitting an article, then we're going to send it out for peer review, we're gonna…
+
+00:03:24.000 --> 00:03:30.269
+<v Meredith Martin> Meredith Martin:  Sorry, I just realized, since CeCe's not here, Haichi or Orelisse, will one of you please open a doc to take notes?
+
+00:03:30.880 --> 00:03:32.809
+<v Meredith Martin> Meredith Martin:  Thank you. Okay, sorry, go ahead.
+
+00:03:32.810 --> 00:03:44.430
+<v Andy Byers> Andy Byers: No, no worries. So we'll run it through peer review, we'll send it out for copy editing, we'll send it out for typesetting, and then we'll run through the pre-publication checklist, and publish a paper.
+
+00:03:44.430 --> 00:04:02.860
+<v Andy Byers> Andy Byers: And if there's time, depending on how quickly we get through things, we can start having a look at the other, areas of Janeway, so the non-publication workflow parts, the settings, and things like that, so we can look at those as well. But we have also got a meeting scheduled next week to go through those in more detail anyway. So yeah, we're gonna start with submitting an article.
+
+00:04:03.340 --> 00:04:07.149
+<v Andy Byers> Andy Byers: So when you start the submission process, you come to the author agreement page.
+
+00:04:07.150 --> 00:04:30.300
+<v Andy Byers> Andy Byers: There are 3 main areas. The publication fees, so if you charge a fee, you can put that in here. If you don't charge a fee, you can use this section to explain where, where funding for your journal comes from. So for example, at OLH, we sort of encourage people to recommend that libraries sign up to our consortial billing, model.
+
+00:04:30.510 --> 00:04:41.070
+<v Andy Byers> Andy Byers: So we have that in there. If you don't want this section, you can turn it off so it doesn't appear at all. But there is different options there. Submission checklist is your,
+
+00:04:41.070 --> 00:04:59.869
+<v Andy Byers> Andy Byers: general list of things that authors need to do before submitting, so what file format they need to use, if there's a reference style they need to follow, that kind of thing can be listed here. And it's an open HTML field, so you can put whatever content you like in there. So, we have an example here, a paragraph, and then a list, and then another paragraph.
+
+00:05:00.280 --> 00:05:03.719
+<v Andy Byers> Andy Byers: And then copyright notice, which is the important part.
+
+00:05:03.720 --> 00:05:07.770
+<v Meredith Martin> Meredith Martin:  Real quick, back to the checklist. So it's just a 1, 2, 3, 4, it's not actually a check.
+
+00:05:08.860 --> 00:05:12.070
+<v Andy Byers> Andy Byers: You have to agree to each… to… to the… to the…
+
+00:05:12.180 --> 00:05:14.660
+<v Andy Byers> Andy Byers: To the items in the, in the, in the list, yeah.
+
+00:05:14.660 --> 00:05:16.850
+<v Meredith Martin> Meredith Martin:  So the very bottom is the only check, though.
+
+00:05:16.850 --> 00:05:19.739
+<v Andy Byers> Andy Byers: Yeah, but you can't go past it without checking it, so…
+
+00:05:19.740 --> 00:05:21.039
+<v Meredith Martin> Meredith Martin:  Great, okay, just curious.
+
+00:05:21.190 --> 00:05:39.689
+<v Andy Byers> Andy Byers: Copyright notice, we have… this is the important part, so this is where you can put a transfer of copyright if you're doing that, or in our case, it's right of first publication. We've actually got Ohio State University's version in here, because I was playing around with it to make it look…
+
+00:05:39.840 --> 00:05:55.940
+<v Andy Byers> Andy Byers: look better for them, so that's their version in here. And what Janeway does, actually, is when we submit this, it will stamp each of the, fields, so it will take a copy of the publication fees, it'll take a copy of the submission checklist, and it'll take a copy of the copyright notice, and it'll assign those
+
+00:05:55.940 --> 00:06:12.219
+<v Andy Byers> Andy Byers: to that article, so even if you change your copyright notice further down the line, the version that that particular author agreed to during submission is retained against that particular article. So if anyone comes back and says, oh, I didn't agree to that, you can… you can pull that up and say, well, actually, you did, because here it is in our agreement.
+
+00:06:12.890 --> 00:06:17.260
+<v Andy Byers> Andy Byers: Lastly, we have a computing interests box, where they can tell you if they have any, competing interests.
+
+00:06:21.500 --> 00:06:35.689
+<v Andy Byers> Andy Byers: Oops, I can't type. It's very cold. It's zero degrees here in Scotland at the moment. My hands are freezing. There's a huge window, and I can feel the heat escaping from my body, towards that window, so my hands, I'm struggling to type.
+
+00:06:36.120 --> 00:06:38.409
+<v Andy Byers> Andy Byers: There we go. I wish I had that.
+
+00:06:42.900 --> 00:06:45.739
+<v Andy Byers> Andy Byers: There we go. Okay, so we go into some basic information.
+
+00:06:46.520 --> 00:06:48.670
+<v Andy Byers> Andy Byers: What is it, the 5th today…
+
+00:06:50.200 --> 00:06:52.230
+<v Andy Byers> Andy Byers: Me, Jesus, I really can't type.
+
+00:06:54.070 --> 00:06:56.859
+<v Andy Byers> Andy Byers: And you can do superscript in here.
+
+00:06:58.030 --> 00:07:07.449
+<v Andy Byers> Andy Byers: And they've got an abstract field. So this will also detect, sort of, pasted content from Word and strip out all the crap, you know, so you don't end up with that weird,
+
+00:07:08.090 --> 00:07:16.500
+<v Andy Byers> Andy Byers: weird HTML crap that comes from Word, they'll strip all that out from in there, so you don't end up with that. With some keywords…
+
+00:07:18.050 --> 00:07:19.360
+<v Andy Byers> Andy Byers: There's open…
+
+00:07:19.480 --> 00:07:33.010
+<v Andy Byers> Andy Byers: An open keywords field. And then we have some additional fields, at the bottom here. So, these are ones that I've set up specifically for this journal. So they don't exist on any other journal, I just made them. So if you have any further metadata you want to collect.
+
+00:07:33.120 --> 00:07:36.480
+<v Andy Byers> Andy Byers: You can create these fields, in our manager system.
+
+00:07:36.710 --> 00:07:42.090
+<v Andy Byers> Andy Byers: I'll very quickly show you that. So we have additional submission fields here. So you can see that the four
+
+00:07:42.450 --> 00:07:44.389
+<v Andy Byers> Andy Byers: The four fields on here.
+
+00:07:44.710 --> 00:07:46.740
+<v Andy Byers> Andy Byers: Or on this, section here.
+
+00:07:47.400 --> 00:07:49.110
+<v Andy Byers> Andy Byers: And you can create…
+
+00:07:49.370 --> 00:08:04.199
+<v Andy Byers> Andy Byers: Text fields, text boxes, drop-downs, so select fields, checkboxes, so you can have Boolean fields, where they have to check a box. They can be required or not required, as well, so you can have, like, a confirmation.
+
+00:08:04.200 --> 00:08:14.290
+<v Andy Byers> Andy Byers: If you want, you can have an email field and a date field as well, in there. So some examples that people use this for, one is about data availability.
+
+00:08:14.460 --> 00:08:17.059
+<v Andy Byers> Andy Byers: So you can have data availability statements.
+
+00:08:17.280 --> 00:08:24.500
+<v Andy Byers> Andy Byers: random text fields, and dropdowns and things like that. So you can create as many of these additional fields as you like.
+
+00:08:24.780 --> 00:08:33.320
+<v Andy Byers> Andy Byers: One of our other journals is a society journal, and so what they do is they require at least one author to be a member of the society for submission, and so they collect the,
+
+00:08:33.350 --> 00:08:53.349
+<v Andy Byers> Andy Byers: the membership number, for one of the authors, on this page as well. So, lots of different, things. We have one, journal where they publish, it's not a journal, it's a repository, but they publish what are called grey-lit reports. So, in the UK, you can't build, without taking up historic,
+
+00:08:53.500 --> 00:09:07.440
+<v Andy Byers> Andy Byers: burial grounds and old villages, so this company are brought in to sort of do surveys, and so they collect geographical information about the survey area as part of the metadata here, so they can then publish that. So lots of different use cases for this section down here.
+
+00:09:07.630 --> 00:09:12.509
+<v Meredith Martin> Meredith Martin:  I have a quick question. Does anyone collect demographic data there, or is that under this one?
+
+00:09:14.210 --> 00:09:16.189
+<v Meredith Martin> Meredith Martin:  I got it, never mind. I'll wait.
+
+00:09:16.640 --> 00:09:17.140
+<v Andy Byers> Andy Byers: Yeah, no.
+
+00:09:17.140 --> 00:09:30.040
+<v Meredith Martin> Meredith Martin:  I'm just thinking, like, graduate student, assistant professor, you know, stuff like that. Like, one of the things that I'm interested in is if the article… if people are submitting to us and we want to collect information about them so that maybe later they could serve as reviewers.
+
+00:09:30.040 --> 00:09:37.490
+<v Meredith Martin> Meredith Martin:  Is there a way for us to kind of give… get more information about them on submission, or is that not something people normally do? This is more of a, like, the other.
+
+00:09:37.490 --> 00:09:45.030
+<v Andy Byers> Andy Byers: Yeah, no, we have… we have one who collects some information, but it's…
+
+00:09:45.160 --> 00:09:58.210
+<v Andy Byers> Andy Byers: what was it they were doing? They're an industry publisher, so they're collecting information about… about the, section of the industry that the article's coming from, but I can't think of anyone who's collecting any other information
+
+00:09:58.520 --> 00:10:05.649
+<v Andy Byers> Andy Byers: About that. I can show you what you can collect for author. There's… there's quite a lot of, fields under affiliation.
+
+00:10:05.650 --> 00:10:06.679
+<v Meredith Martin> Meredith Martin:  What we need anyway.
+
+00:10:06.690 --> 00:10:10.669
+<v Andy Byers> Andy Byers: Yeah, possibly. There's nothing around,
+
+00:10:10.810 --> 00:10:14.049
+<v Andy Byers> Andy Byers: Sort of the academic level a person's at.
+
+00:10:14.500 --> 00:10:20.619
+<v Andy Byers> Andy Byers: But when you come through onto the author page, the person doing the submission is automatically added as the first author.
+
+00:10:20.670 --> 00:10:35.129
+<v Andy Byers> Andy Byers: As you can see here, it's me, it's got my ORCID, it doesn't know my affiliation, unfortunately, but I can go in to edit my details. And if you have an ORCID that works, I don't, you can click, grab from ORCID.
+
+00:10:35.360 --> 00:10:51.059
+<v Andy Byers> Andy Byers: Mine doesn't work, because I don't have my ORCID publicly available. But if you do, you can grab your affiliations directly from ORCID, and we use ROR data for that, so we're getting, if you haven't come across that before, it's like ORCID for organizations, so there's…
+
+00:10:51.230 --> 00:11:02.939
+<v Andy Byers> Andy Byers: 150, 160,000 institutions listed in the ORCID data… in the ROR data. So, because we don't have, option to pull that from ORCID, we can go add affiliation.
+
+00:11:03.260 --> 00:11:05.590
+<v Andy Byers> Andy Byers: And I can just search for BerkVik.
+
+00:11:10.990 --> 00:11:23.170
+<v Andy Byers> Andy Byers: My local computer's very slow. So there's Burkebeck there, I can just select it. If, once I've searched, I can't find an organization, I can just create one, and it'll give me the option to create a custom organization. I can just put my… my organization name in there.
+
+00:11:23.910 --> 00:11:24.290
+<v Andy Byers> Andy Byers: meios.
+
+00:11:24.290 --> 00:11:26.180
+<v Meredith Martin> Meredith Martin:  auto-populated?
+
+00:11:26.610 --> 00:11:29.460
+<v Andy Byers> Andy Byers: Yeah, so we pull them down for RRR,
+
+00:11:29.800 --> 00:11:46.630
+<v Andy Byers> Andy Byers: to Janeway, so you don't have to do anything, yeah. I can then fill in my title, position, department, unit, or team. I can mark this as my primary affiliation or not, and I can do start and end dates as well on there. We have found, because this is a relatively new feature, we have found that people fill this one in.
+
+00:11:46.840 --> 00:11:56.490
+<v Andy Byers> Andy Byers: they tend not to fill in department, and everyone ignores the start and end date so far. We haven't had a single person fill those fields in, so we might be removing them, because no one's using them at all.
+
+00:11:56.490 --> 00:12:10.650
+<v Meredith Martin> Meredith Martin:  It's kind of, like, pretty granular, but it feels like affili… it feels like, the one right before affiliation would be where we would be able to see if they were a graduate student, postdoc, assistant professor, because that's something we're interested in. Like, first authors might be a graduate student, but the second or third might be professor, and we need to know that.
+
+00:12:11.140 --> 00:12:12.429
+<v Andy Byers> Andy Byers: Yeah, that's good.
+
+00:12:12.730 --> 00:12:16.949
+<v Andy Byers> Andy Byers: So… yep, that's fine, we can go back.
+
+00:12:17.210 --> 00:12:33.760
+<v Andy Byers> Andy Byers: The other thing you can add on to this page is you can do contributor roles, and we use the NYSO credit system, for contributor roles. This is off by default on an installer Janeway. You can turn it on if you want authors to be able to select these, and they can basically select from these.
+
+00:12:34.320 --> 00:12:47.249
+<v Andy Byers> Andy Byers: One of the things that credit has been, queried about is there's… there's some suspiciously… there's some suspicious missing items from the credit rolls, like translation… translator isn't on this list, which is mad.
+
+00:12:47.250 --> 00:12:57.999
+<v Andy Byers> Andy Byers: And so they're looking to add new ones, which we're quite excited about. But, this is, one of the reasons we've implemented this is because we, Janeway, can integrate with the OA Switchboard.
+
+00:12:58.000 --> 00:13:04.749
+<v Andy Byers> Andy Byers: And what OE Switchboard does is it will send a message automatically when you publish a paper to the institution.
+
+00:13:04.750 --> 00:13:18.219
+<v Andy Byers> Andy Byers: of the author saying, this author has a new publication. And one of the things that they want downstream is the roles that those authors had during the article. So, those are there, we can just click on the ones that we want, and we add those.
+
+00:13:18.300 --> 00:13:22.599
+<v Andy Byers> Andy Byers: For adding second authors, there's a bunch of different ways. One, we can just search ORCID.
+
+00:13:24.450 --> 00:13:36.129
+<v Andy Byers> Andy Byers: And I can pull in Robert Collins, who's actually my colleague Joe Muller. His name has been anonymized to Robert Collins, but it's actually my colleague Joe Muller. And you can see, actually, his affiliation has been pulled straight from ORCID.
+
+00:13:36.440 --> 00:13:46.579
+<v Andy Byers> Andy Byers: So I don't have to fill it in, it's just been grabbed, and he's at Birkbeck with me, so… He's actually a teacher, as well as a software engineer, so it's pulled in his teaching affiliation, because that's his… the latest one on his record.
+
+00:13:46.700 --> 00:13:52.559
+<v Andy Byers> Andy Byers: The other option you've got is to fill them in manually, so if you can't find them on orchid, you can just pop them in there manually.
+
+00:13:53.620 --> 00:13:55.599
+<v Andy Byers> Andy Byers: There we get to upload our file…
+
+00:13:57.280 --> 00:14:04.539
+<v Andy Byers> Andy Byers: And if I go to Documents, I think I have a test file somewhere… There it is… upload that.
+
+00:14:05.440 --> 00:14:23.030
+<v Andy Byers> Andy Byers: And we can upload any data. These pop-ups have, text blocks where you can add custom information about what you want people to upload. There's one on the manuscript one as well, it just… I haven't filled it in, so there's nothing there, it actually says this is a test. But you can put information in here, you can also add information here as well.
+
+00:14:23.480 --> 00:14:26.579
+<v Andy Byers> Andy Byers: We tend not to block people from uploading…
+
+00:14:26.710 --> 00:14:36.370
+<v Andy Byers> Andy Byers: particular files, but we do have an option that forces them to upload what we call an editable file type, and that covers, that's covered by doc, docx.
+
+00:14:36.570 --> 00:14:52.960
+<v Andy Byers> Andy Byers: ODT, which is the open office format where it can open those, an RTF file, so you can, sort of force them to upload one of those as the manuscript file, and a lot of our journals turn that feature on, because they don't want to get a PDF or a LaTeX file, submitted as part of the upload.
+
+00:14:52.960 --> 00:14:58.429
+<v Meredith Martin> Meredith Martin:  We actually permit LaTec and Word. Those are our two submission formats right now.
+
+00:14:58.880 --> 00:15:06.810
+<v Andy Byers> Andy Byers: So what you would do here is you would just have the information about the submission formats in this block of text up here, and then they can upload the files themselves.
+
+00:15:07.940 --> 00:15:10.700
+<v Andy Byers> Andy Byers: Let me just upload an image…
+
+00:15:14.100 --> 00:15:17.419
+<v Andy Byers> Andy Byers: And… you can also have the data here as well, so…
+
+00:15:18.280 --> 00:15:20.080
+<v Andy Byers> Andy Byers: What have I got? There's an…
+
+00:15:20.200 --> 00:15:24.130
+<v Andy Byers> Andy Byers: ODS file, so we'll load that. So we've got a figure file and a data file.
+
+00:15:24.270 --> 00:15:26.830
+<v Andy Byers> Andy Byers: And you can upload as many as you want, you can…
+
+00:15:27.070 --> 00:15:45.120
+<v Andy Byers> Andy Byers: We can also allow people to upload video files and audio files, depending on the size. I think we have, like, a 1GB limit on upload file sizes, so anything above that needs to be hosted externally and linked through. I don't know if you have any video file submissions, or if they're mainly articles, that's cool.
+
+00:15:45.290 --> 00:15:48.559
+<v Meredith Martin> Meredith Martin:  Oh, hey Andy, Sarah has a quick question going back to the rules.
+
+00:15:48.900 --> 00:15:49.530
+<v Andy Byers> Andy Byers: Yes.
+
+00:15:49.780 --> 00:15:57.939
+<v Sarah Reiff Conell> Sarah Reiff Conell:  Yeah, I'll jump in. So for the… I know that the taxonomy is credit, but what metadata schema are those roles tied to? Like, is it…
+
+00:15:58.470 --> 00:16:04.429
+<v Sarah Reiff Conell> Sarah Reiff Conell:  Using… like, what metadata schema are we… I was trying to find it in the documentation.
+
+00:16:04.450 --> 00:16:13.300
+<v Andy Byers> Andy Byers: Yeah, we don't have a metadata schema, so Janeway stores these agnostically in an RDBMS, so it's not storing, like, a JATS file underneath this.
+
+00:16:13.300 --> 00:16:26.969
+<v Andy Byers> Andy Byers: It's a relational database, and what Janeway can do is, because we're doing that, it can export these in different formats that we need. So, Janeway's capable of producing, for example, a JATS metadata output, a Dublin Core.
+
+00:16:26.970 --> 00:16:33.470
+<v Andy Byers> Andy Byers: Doaj, Crossref, Datasite, all that sort of stuff. So we transfer them those at the point that we need them.
+
+00:16:33.470 --> 00:16:38.230
+<v Sarah Reiff Conell> Sarah Reiff Conell:  Okay. Yeah, so those are all sort of covered, and then any other ones that we need that you…
+
+00:16:38.630 --> 00:16:55.739
+<v Andy Byers> Andy Byers: that you guys need that we don't have, we can look at building those in as we need them. But yeah, we have a… everything's sort of done as an object, and this is… this is actually the list of the objects that Janeway has. So when you look at, for example, a sub… the submission block here.
+
+00:16:55.830 --> 00:17:06.099
+<v Andy Byers> Andy Byers: You can see there are credit records, there are authors, there are sections, there are articles, and Janeway interlinks these all in the database.
+
+00:17:06.210 --> 00:17:21.598
+<v Andy Byers> Andy Byers: So you can go into an article, and you can see who owns it, and what journal it belongs to, and what stage it's in, and all that stuff. And then it's very easy for us to sort of… we have an XML template for chats, for example, and we have… we just export into that format when we need to do that.
+
+00:17:22.180 --> 00:17:24.098
+<v Sarah Reiff Conell> Sarah Reiff Conell:  Okay, thank you, that's so helpful.
+
+00:17:24.108 --> 00:17:24.888
+<v Andy Byers> Andy Byers: No worries.
+
+00:17:26.979 --> 00:17:31.509
+<v Andy Byers> Andy Byers: It's one of the things I learned, actually. I used to work on,
+
+00:17:31.509 --> 00:17:51.089
+<v Andy Byers> Andy Byers: PKP software in my job before this, and I had a very long discussion with them, because they built OMP, which is their book platform, and they built that around ONNX, and so they were using ONIX underlying it, and they said, this was a mistake, we should never have done this. We should have built it our own way, and then used… done an export to ONNX. It's one of the things I learned from them, which is quite good.
+
+00:17:52.339 --> 00:18:09.359
+<v Andy Byers> Andy Byers: So we've got our files there, and then we've got an optional, page that's off by default that you can turn on if you want to collect funding information. This uses the Fundref database, because I'm running it locally, I can't search the database, it won't work.
+
+00:18:09.679 --> 00:18:28.019
+<v Andy Byers> Andy Byers: if I put Arcadia in here, it's gonna just spin this forever. But what will happen is, on production, you'll get a table, from Fundref that just… you can select Arcadia Fund or whatever from the list. But, in the event that things aren't working, you can also add them manually, so I can put Arcadia…
+
+00:18:28.349 --> 00:18:31.339
+<v Andy Byers> Andy Byers: In here… if I know they're…
+
+00:18:32.549 --> 00:18:36.409
+<v Andy Byers> Andy Byers: the DUI, I can put that in there as well, and I can put my grant ID.
+
+00:18:37.279 --> 00:18:38.469
+<v Andy Byers> Andy Byers: In there, too.
+
+00:18:40.049 --> 00:18:43.609
+<v Andy Byers> Andy Byers: And so that comes up there. Yeah, we're gonna… Yeah, I'm pretty… oh!
+
+00:18:43.770 --> 00:18:45.050
+<v Meredith Martin> Meredith Martin:  We're gonna want that info.
+
+00:18:45.050 --> 00:18:58.640
+<v Andy Byers> Andy Byers: Yeah, yeah. So we just enable this during the setup. I actually finished setting up your site this morning, did most of it last week, and then got the rest of it done today, so we can get you guys access to that to start looking through it and setting things up.
+
+00:18:59.010 --> 00:19:15.450
+<v Andy Byers> Andy Byers: Lastly, we have a review page, so we just run through, it just shows you all of the stuff you've submitted. And you've got an option to write comments to the editor at the bottom here before you submit. You can also jump back along the timeline to make changes to anything that you need to.
+
+00:19:15.460 --> 00:19:27.720
+<v Andy Byers> Andy Byers: In version 1.9, we also have edit buttons, in the metadata blocks themselves. So there's, like, an edit button there, an edit button there, which takes you back to the pages, just to make it a little bit clearer that you can do that.
+
+00:19:31.910 --> 00:19:32.810
+<v Andy Byers> Andy Byers: Oops.
+
+00:19:34.330 --> 00:19:46.909
+<v Andy Byers> Andy Byers: So, when we submit, that's us completing our submission there, Jamie does a couple of things in the background. The first thing it does is it sends an email to the author confirming the submission, so that they've got that.
+
+00:19:46.940 --> 00:20:01.199
+<v Andy Byers> Andy Byers: Next, it works out you to email to let them know that there's a new submission. Does that in a number of ways. There's a fallback list, so it will email the fallback list as the last resort, but then it… the first thing it does is actually checks by article type, so…
+
+00:20:01.650 --> 00:20:21.860
+<v Andy Byers> Andy Byers: say you had 5 different article types, like, article, book review, editorial, whatever. You can have a set of editors assigned to manage new articles, you can have a set of, you know, book review editor assigned for the book review, and what Janeway will do is it will go in and say, well, this is a book review, I'm going to email the book reviews editor and tell them there's a new submission for them to handle.
+
+00:20:21.860 --> 00:20:27.899
+<v Andy Byers> Andy Byers: It can also auto-assign them as the editor for that paper, so that the chief editor doesn't need to do that.
+
+00:20:27.900 --> 00:20:34.330
+<v Andy Byers> Andy Byers: And that can be configured, we can look at that during the configuration training next week, and we can show you how that works.
+
+00:20:34.440 --> 00:20:40.770
+<v Andy Byers> Andy Byers: But new articles come in, and they go into unassigned. That's the first step, so they come into unassigned here.
+
+00:20:41.880 --> 00:20:44.510
+<v Andy Byers> Andy Byers: And we can see our article is in the list here.
+
+00:20:45.040 --> 00:20:47.680
+<v Andy Byers> Andy Byers: And we're now looking at this from the editor's POV.
+
+00:20:48.290 --> 00:20:50.630
+<v Andy Byers> Andy Byers: So this is the unassigned step.
+
+00:20:50.820 --> 00:20:53.829
+<v Andy Byers> Andy Byers: We get a summary on the left here of the article.
+
+00:20:53.950 --> 00:20:56.060
+<v Andy Byers> Andy Byers: And it's… and it's metadata.
+
+00:20:56.240 --> 00:21:03.469
+<v Andy Byers> Andy Byers: And we can see down here the files as well. If you've got similarity check with CrossRef, you can send those off for similarity check.
+
+00:21:03.900 --> 00:21:15.579
+<v Andy Byers> Andy Byers: You can also assign it to a projected issue, so if you know roughly when… what issue this article's going to go in when it gets published, you can do a soft link between the article and that particular issue.
+
+00:21:15.830 --> 00:21:19.460
+<v Andy Byers> Andy Byers: So I'm soft-linking this, this article.
+
+00:21:19.580 --> 00:21:23.000
+<v Andy Byers> Andy Byers: To Volume 100, Issue 1, 2025.
+
+00:21:23.220 --> 00:21:27.060
+<v Andy Byers> Andy Byers: It's not a hard link, but it's quite a good thing to set.
+
+00:21:27.120 --> 00:21:44.630
+<v Andy Byers> Andy Byers: Because as you go through the process, especially when you go into typesetting, to give the typesetter an idea of what to put in the JAX XML metadata as well, is to set that. It can be changed, so if you find that it needs to roll over into the 2026 issue, you can change it later on.
+
+00:21:45.230 --> 00:21:50.200
+<v Andy Byers> Andy Byers: But our first step really is to assign an editor. So we've got our list of editors on the right here.
+
+00:21:50.920 --> 00:21:52.930
+<v Andy Byers> Andy Byers: I'm just going to assign myself…
+
+00:21:53.710 --> 00:21:59.469
+<v Andy Byers> Andy Byers: And I do get the option to send myself a template email if I want to. Originally, we had it skip this.
+
+00:21:59.700 --> 00:22:19.029
+<v Andy Byers> Andy Byers: But one of our editors was like, hey, I like sending myself an email, so we put it back in, because he likes having them in his inbox, so we put that back there. And then we get some options down to the bottom right-hand side here, so we can move to review, we can, we can accept, or we can desk reject the paper at this point. And we have,
+
+00:22:19.290 --> 00:22:26.410
+<v Andy Byers> Andy Byers: a special template for desk rejection versus post-peer review rejection as well. They're two different template emails that you can edit.
+
+00:22:27.120 --> 00:22:33.500
+<v Andy Byers> Andy Byers: You also get a little warning just saying that you have got Similarity Check enabled, and you haven't sent the article to Similarity Check as well.
+
+00:22:35.500 --> 00:22:37.529
+<v Andy Byers> Andy Byers: I got a little security warning here. Yeah, go ahead.
+
+00:22:37.530 --> 00:22:39.529
+<v Meredith Martin> Meredith Martin:  Sorry, how does the similarity check work?
+
+00:22:39.960 --> 00:22:45.710
+<v Andy Byers> Andy Byers: So, do you… are you guys signing up with Crosstref, or are you using Datasite?
+
+00:22:45.740 --> 00:23:02.079
+<v Meredith Martin> Meredith Martin:  We were using Crossref before, but we have… it was going to be one of my questions for you, is how do you guys manage it, and what should we do? Because Crossref, for us, is now… that's kind of where we've moved everything over, but we don't know how exactly to link it to you.
+
+00:23:02.380 --> 00:23:12.070
+<v Andy Byers> Andy Byers: Yeah, so we can deal with that, that's part of the configuration process. Okay. Basically, you can get in touch with Crossref, ask them to, get you a similarity check account.
+
+00:23:12.070 --> 00:23:14.140
+<v Meredith Martin> Meredith Martin:  Okay. And then they'll give you your login.
+
+00:23:14.140 --> 00:23:22.529
+<v Andy Byers> Andy Byers: some login details, and we punch those into Janeway, and then you're able to send articles to Similarity Check. If, if there's a problem with that, and they…
+
+00:23:22.600 --> 00:23:23.609
+<v Andy Byers> Andy Byers: And it…
+
+00:23:23.660 --> 00:23:43.180
+<v Andy Byers> Andy Byers: it's too much… too difficult, whatever. What we'll do is we'll actually create you a subaccount on our one. Okay. And that's usually the fastest, actually. We've done that for a bunch of people, where we just create a subaccount on our authenticate, we punch that in as the login details, and then what we do is… we get charged something like 90 cents per article that gets sent to Similar Architect.
+
+00:23:43.180 --> 00:23:49.130
+<v Andy Byers> Andy Byers: At the end of a quarter, or the end of a year, we total up the number of articles that have been sent, and we add that onto the invoice, basically.
+
+00:23:49.130 --> 00:23:51.560
+<v Meredith Martin> Meredith Martin:  Does it catch a lot of things? Like, is it useful?
+
+00:23:51.560 --> 00:23:52.060
+<v Andy Byers> Andy Byers: You do that, right?
+
+00:23:52.060 --> 00:23:52.810
+<v Meredith Martin> Meredith Martin:  now.
+
+00:23:52.810 --> 00:24:06.259
+<v Andy Byers> Andy Byers: Yeah, we've, we actually had one last week where we had to send, one of our journals had to reject a paper. It was a lot of self-plagiarism, actually, in that case. It was picking up, chunks of text that he'd picked up from his
+
+00:24:06.480 --> 00:24:13.780
+<v Andy Byers> Andy Byers: one of his older articles and dumped straight into the new one, and so they couldn't publish it. It was about 45% of the paper.
+
+00:24:13.840 --> 00:24:30.370
+<v Andy Byers> Andy Byers: was picked up. And so what that does, it really just gives you an indication, gives you a percentage, and then, it gives… Janeway will give you a link to actually view the paper, and it will show you where it's picked the sources up from. And so it needs a human to review it, it's not just, like.
+
+00:24:30.480 --> 00:24:36.229
+<v Andy Byers> Andy Byers: this is 100% plagiarism. You do need to go in and look at the paper and check, but it works really well. It's very.
+
+00:24:36.230 --> 00:24:53.339
+Matthew Kopel: Yeah, I'll just chime in quickly, Meredith, and we can talk about this, that I authenticate is a great guidance tool. It is not… it is a… it does require human intervention and checking, and is not perfect, in any measure, and it's useful, and it's nice that it's integrated.
+
+00:24:53.340 --> 00:25:00.199
+<v Meredith Martin> Meredith Martin:  Awesome. No, I was… I… I'm… I think we would love to have it, it's just I hadn't… we don't have it already, so that's all. Thank you, great.
+
+00:25:00.200 --> 00:25:09.110
+<v Andy Byers> Andy Byers: Yeah, I mean, we can, yeah, as I say, we can simply create you a subaccount and get going with that quickly if you want to use it. And then you can also stop using it if you don't want it, that's the other bonus.
+
+00:25:09.900 --> 00:25:27.329
+<v Andy Byers> Andy Byers: Yeah, that security warning we sell there, just so you know, is because I'm the author of this paper and the editor. So, generally speaking, if you are the author of a paper, you can't access the review screen in Janeway to look at it. So, if Meredith, for example, had submitted a paper and then tried to look at it as an editor, it would
+
+00:25:27.330 --> 00:25:34.970
+<v Andy Byers> Andy Byers: it wouldn't actually allow you to override it like I was… like I was able to there. It would just say, sorry, you're not allowed to look at this, please contact an administrator.
+
+00:25:34.970 --> 00:25:44.209
+<v Andy Byers> Andy Byers: If there is a very compelling reason why an editor must be able to see their own reviews, we can add an override manually, but generally it's blocked.
+
+00:25:44.890 --> 00:25:49.840
+<v Andy Byers> Andy Byers: So this is the main review screen for Janewayne. We have our, the interface
+
+00:25:49.910 --> 00:26:03.709
+<v Andy Byers> Andy Byers: is relatively the same across the board. You've got the main menu down the left-hand side, across the top we've got breadcrumbs, so we can go back to the dashboard, we can go back to all the articles and review that kind of thing, and then we have our article timeline block along the top here.
+
+00:26:03.710 --> 00:26:20.370
+<v Andy Byers> Andy Byers: So you can move back and forward through the workflow. As we move this article forward, you'll see more and more buttons appear at the top here. We'll have one for copy editing, one for typesetting, and one for pre-publication. And that allows you to jump back and forward and see things. So if you're in copy editing, you want to look at the reviews, you can click the review link and come back here.
+
+00:26:20.390 --> 00:26:26.910
+<v Andy Byers> Andy Byers: If we wanted to assign another editor, we can jump back to Editor Assignment, and it'll take us back onto that page we were on previously.
+
+00:26:26.970 --> 00:26:29.910
+<v Andy Byers> Andy Byers: And we can see those and assign more editors if we want to.
+
+00:26:31.510 --> 00:26:44.090
+<v Andy Byers> Andy Byers: For a review, oh, what else is there on here? We've got logs, documents, and more. This is our, sort of, utility drop-down, where you can look at things like logs, you can look at all the documents, you can…
+
+00:26:44.100 --> 00:27:01.939
+<v Andy Byers> Andy Byers: Archive papers as well, so, you know, if you send it out for revision and three years later the author still hasn't submitted their revisions, you can archive the paper and remove it from the workflow, that kind of thing. You can also move articles back through the workflow, so if you moved it to copy editing by accident, you can move it back into review, and so on.
+
+00:27:02.280 --> 00:27:18.309
+<v Andy Byers> Andy Byers: From here, document management just shows you all the documents for this particular paper. You'll see them here, when they were uploaded, when they were last modified, and this is the only real place in January where you can actually do a delete on a file. So if you delete it from here, the file will be
+
+00:27:18.310 --> 00:27:25.390
+<v Andy Byers> Andy Byers: will be gone-gone. In lots of other places, you'll see delete buttons, but actually they're a soft delete, and the file will still be available here.
+
+00:27:25.390 --> 00:27:35.650
+<v Meredith Martin> Meredith Martin:  As things go through the, workflow, do more fields populate underneath, too? Like, label, file name, upload, modified, like, would it have DOI? Would it have…
+
+00:27:35.840 --> 00:27:42.819
+<v Meredith Martin> Meredith Martin:  with reviewer, anything like that. I'm trying to figure out the functionality of project management inside Janeway at the same time as I'm tracking you, and
+
+00:27:43.040 --> 00:27:45.270
+<v Meredith Martin> Meredith Martin:  You know, so I'm just curious how that populates.
+
+00:27:45.270 --> 00:28:03.140
+<v Andy Byers> Andy Byers: Yeah, it will tell you, the type of file will tell you what the file is, what it was used for, where it came from, sort of a mixture of the label and the type for that one. DOIs don't tend to be associated with files directly, they're associated with articles, and those are managed from the identifiers page. Oh, I… okay.
+
+00:28:03.140 --> 00:28:05.250
+<v Meredith Martin> Meredith Martin:  Okay, so I didn't see that drop down before, okay.
+
+00:28:05.730 --> 00:28:07.190
+<v Meredith Martin> Meredith Martin:  You'll probably guess that, never mind.
+
+00:28:07.190 --> 00:28:11.910
+<v Andy Byers> Andy Byers: Yeah, we'll come to identifiers, yeah. They're… they're pretty…
+
+00:28:12.100 --> 00:28:31.900
+<v Andy Byers> Andy Byers: they're pretty… is opaque the word I'm looking for? I can't remember, if it's the right word, or it's the opposite, translucent, I can't remember. Basically, with DOIs, you don't have to worry about them with Janeway. J&A mints them and maintains them itself, you don't have to really be concerned about them, but they do show up in a few places, and we will get to those for sure.
+
+00:28:33.010 --> 00:28:43.010
+<v Andy Byers> Andy Byers: The log here shows all the outgoing emails, for this particular article, and, when it moved through different stages, so you can see it moving from unassigned to assigned.
+
+00:28:43.180 --> 00:28:48.809
+<v Andy Byers> Andy Byers: And then we move it into… when we assign a peer reviewer, it'll move into review, and then so on from there.
+
+00:28:49.190 --> 00:29:00.849
+<v Andy Byers> Andy Byers: So, let's go ahead and assign a reviewer. The first step is to add the files to this round, so we're in round 1 review, we can go add files, and this is where we select which files we want to send to the reviewer for them to look at.
+
+00:29:01.010 --> 00:29:05.070
+<v Andy Byers> Andy Byers: We can select them from here. You can also upload new files if you want to.
+
+00:29:05.520 --> 00:29:14.459
+<v Andy Byers> Andy Byers: So if you download the DocX and edit it to remove things, you can just upload a new version there. Once we've got files in this round, we can do Add Reviewer.
+
+00:29:20.020 --> 00:29:24.679
+<v Andy Byers> Andy Byers: This is going to take ages to load, because I have about 50,000 reviewers in my database.
+
+00:29:24.680 --> 00:29:34.490
+<v Meredith Martin> Meredith Martin:  Oh, that's really helpful. I can ask, then, how does the fact that you're minting the DOIs, do you then communicate that out to Crossref? I've just, like, entered the wacky world of Crossref, and I'm…
+
+00:29:34.770 --> 00:29:42.520
+<v Meredith Martin> Meredith Martin:  And I actually handed it over to Matt, but do they… do we need to tell Crossref who… on your team to contact if there's a DOI issue?
+
+00:29:43.380 --> 00:29:51.139
+<v Andy Byers> Andy Byers: Yeah, so you can list us as the technical contact, and so if something goes wrong with the DOI, they'll email us, and that, we take care of it.
+
+00:29:51.350 --> 00:29:58.050
+<v Meredith Martin> Meredith Martin:  I love that. Do you want it to be you, or who? Because I just made…
+
+00:29:58.450 --> 00:30:01.469
+<v Meredith Martin> Meredith Martin:  the technical contact, because I was like, I can't handle these.
+
+00:30:01.470 --> 00:30:11.090
+<v Andy Byers> Andy Byers: You can add… I think you can add more than one, and so you could put our support address in, and that means that any issues will go to the support desk.
+
+00:30:11.170 --> 00:30:15.969
+<v Meredith Martin> Meredith Martin:  And then one of my team will pick it up from there. Okay, I'll add that to my to-do list, thank you.
+
+00:30:16.550 --> 00:30:27.249
+<v Andy Byers> Andy Byers: So, on the review assignment page, we see some information about our reviewers, we can see how many active reviews they have, we can see their reviewer interests, we can see their average score if they have one.
+
+00:30:27.430 --> 00:30:29.399
+<v Andy Byers> Andy Byers: I don't think any of these do.
+
+00:30:29.540 --> 00:30:31.970
+<v Andy Byers> Andy Byers: We can see the last time they completed a review.
+
+00:30:32.860 --> 00:30:34.399
+<v Andy Byers> Andy Byers: So, you can see…
+
+00:30:34.520 --> 00:30:50.119
+<v Andy Byers> Andy Byers: That's, September the 30th for that one, and I haven't reviewed this article previously. It will flag, you know, if you're in, sort of, round two of peer review, you can flag people who've reviewed this article in Round 1 if you're not using the same reviewers and stuff like that. You can also view the history.
+
+00:30:51.140 --> 00:30:57.330
+<v Andy Byers> Andy Byers: Of this particular reviewer, and it will show us nothing, because I've broken this page. That's what you get for playing around with stuff.
+
+00:30:58.010 --> 00:31:00.930
+<v Andy Byers> Andy Byers: What is that? I'm not gonna life debug it.
+
+00:31:01.340 --> 00:31:18.400
+<v Andy Byers> Andy Byers: I've been editing the history page today, so I've broken it. Well done, me. But it basically shows you articles they've previously reviewed and stuff like that, so you can see those. If the reviewer you want isn't listed here, we can do Add New Reviewer, which gives us a very simple pop-up.
+
+00:31:18.400 --> 00:31:26.529
+<v Andy Byers> Andy Byers: email, salutation, first name, last name. But we have a much more complex, review management area.
+
+00:31:26.840 --> 00:31:33.219
+<v Andy Byers> Andy Byers: in the manager… Under Roles, we can go to Reviewer…
+
+00:31:33.990 --> 00:31:35.809
+<v Andy Byers> Andy Byers: And this is where you can…
+
+00:31:36.150 --> 00:31:39.460
+<v Meredith Martin> Meredith Martin:  You will have already pulled all of our reviewers over from Scholastica, though, right?
+
+00:31:39.910 --> 00:31:40.540
+<v Andy Byers> Andy Byers: Yeah.
+
+00:31:40.950 --> 00:31:58.139
+<v Andy Byers> Andy Byers: This is just for maintaining your review database, so if you want to prune people, or you want to edit their interests, just for generally for managing their… managing those reviewers, so we can… yeah, if we order this, we'll see some more interesting information, so we can see information about these people.
+
+00:31:58.220 --> 00:32:02.349
+<v Andy Byers> Andy Byers: How many assignments they've had, when they last did a review.
+
+00:32:02.560 --> 00:32:05.459
+<v Andy Byers> Andy Byers: Average scores, because you can score them out of 10.
+
+00:32:05.660 --> 00:32:10.579
+<v Andy Byers> Andy Byers: And yeah, I think the history button will take us to the same broken page, so…
+
+00:32:10.730 --> 00:32:13.610
+<v Andy Byers> Andy Byers: It's working in production, just not on development at the moment.
+
+00:32:14.220 --> 00:32:17.219
+<v Andy Byers> Andy Byers: And you can also prune people, so if,
+
+00:32:17.810 --> 00:32:21.539
+<v Andy Byers> Andy Byers: If you've got people in here you don't want as reviewers anymore, you can remove them.
+
+00:32:22.060 --> 00:32:25.710
+<v Andy Byers> Andy Byers: Just by clicking the remove button there, and that will take them out of the database.
+
+00:32:27.180 --> 00:32:41.590
+<v Andy Byers> Andy Byers: So I'm gonna select myself as the reviewer. This is a different account from the one I'm logged in as. You can't assign yourself directly as a reviewer for an article. And then, down at the bottom here, you've got options, so we can select a form.
+
+00:32:42.290 --> 00:32:44.829
+<v Andy Byers> Andy Byers: You can have multiple review forms in Janeway.
+
+00:32:45.030 --> 00:32:56.280
+<v Andy Byers> Andy Byers: From the review forms manager here. I have one called default, which is super exciting. But you can have, you know, 4 or 5 different forms with different questions on them, depending on what you want to do.
+
+00:32:56.610 --> 00:33:00.970
+<v Andy Byers> Andy Byers: There's an anonymity field, so…
+
+00:33:01.120 --> 00:33:18.879
+<v Andy Byers> Andy Byers: You can do open, single, or double anonymous review in Janeway. We also have some journals that publish the reviews as well. If you do an open review on the anonymity, it will ask the author to confirm they're happy to sign their name against that review, and if you choose to publish it, you know, it'll display that information.
+
+00:33:19.040 --> 00:33:32.919
+<v Andy Byers> Andy Byers: And then you can give a due date, and by default, JMway sets the due date to 56 days in the future. You can change that default, so if you think 56 days is too long or too short, you can change it. But for each individual review, you can, yeah, you can change it anyway.
+
+00:33:33.310 --> 00:33:35.679
+<v Meredith Martin> Meredith Martin:  Can we search for reviewers by interest?
+
+00:33:36.210 --> 00:33:42.610
+<v Andy Byers> Andy Byers: Yeah, I just type in here, so I… you can see I've got interest 1 and 2, so if I just type 2 in there… whoops.
+
+00:33:43.160 --> 00:33:45.860
+<v Andy Byers> Andy Byers: It's gonna filter, you can see automatically there.
+
+00:33:46.400 --> 00:34:05.570
+<v Andy Byers> Andy Byers: Pulling those up. It will also try and match keywords to interests as well. So, if you have a matching keyword and a matching interest, so computing, for example, is an interest of mine, in case anyone hadn't realized that. If computing came in as a keyword, it would suggest me as a reviewer, because we had matching interests. It's very basic matching, though, I won't lie.
+
+00:34:07.370 --> 00:34:17.389
+<v Andy Byers> Andy Byers: So, once we add the reviewer, we then get the option to send them a template email. This is one of the ones you're going to want to edit, because everyone edits this template to customize it a little bit.
+
+00:34:19.500 --> 00:34:23.870
+<v Andy Byers> Andy Byers: My computer's running really slowly, unfortunately. I've got too many windows open, that's why.
+
+00:34:26.130 --> 00:34:36.170
+<v Andy Byers> Andy Byers: He doesn't like Zoom either. I run on Linux, which hates Zoom. So… yeah, we're sending it to Andy McBuyers, from Andy Byers. I am Scottish, in case anyone's wondering, this is not…
+
+00:34:36.310 --> 00:34:46.550
+<v Andy Byers> Andy Byers: I'm allowed to put McBar MC in front of my name. And so it's filling in template email, and it's giving them a link for them to complete the review here.
+
+00:34:46.679 --> 00:34:49.649
+<v Andy Byers> Andy Byers: And we don't require the reviewers to log in.
+
+00:34:50.500 --> 00:34:54.329
+<v Andy Byers> Andy Byers: They use a link that has a secret key.
+
+00:34:54.699 --> 00:34:56.759
+<v Andy Byers> Andy Byers: So if I open up a…
+
+00:34:57.860 --> 00:35:02.890
+<v Andy Byers> Andy Byers: a window where I'm not logged into Janeway, you can see that using the code takes me straight in.
+
+00:35:03.150 --> 00:35:06.799
+<v Andy Byers> Andy Byers: To the… To the review page.
+
+00:35:07.070 --> 00:35:11.200
+<v Andy Byers> Andy Byers: So… I can actually just agree…
+
+00:35:11.510 --> 00:35:17.099
+<v Andy Byers> Andy Byers: perform the review. We'll see on the editor dashboard that it'll mark that I've accepted the request.
+
+00:35:17.910 --> 00:35:20.410
+<v Andy Byers> Andy Byers: And then I can fill the form in down here.
+
+00:35:26.820 --> 00:35:29.280
+<v Andy Byers> Andy Byers: My review forum has lots of fun questions on it.
+
+00:35:29.810 --> 00:35:31.780
+<v Meredith Martin> Meredith Martin:  We have lots of fun questions on ours.
+
+00:35:31.780 --> 00:35:39.700
+<v Andy Byers> Andy Byers: Mine are all really random, like, rate this article where one sucks and 5 is awesome. I'm not really sure you'd have that one.
+
+00:35:39.700 --> 00:35:48.539
+<v Meredith Martin> Meredith Martin:  Oh, no, we definitely had one author who got rejected, and he wrote back after the rejection and said, this journal sucks, and I think it's the funniest thing in the world.
+
+00:35:48.900 --> 00:35:54.199
+<v Andy Byers> Andy Byers: Oh, that's funny. So if we come back to the editor screen, we'll see now that that review is complete.
+
+00:35:54.300 --> 00:36:05.209
+<v Andy Byers> Andy Byers: And the recommendation was minor revisions. One thing I haven't shown you is that review has its own little dashboard, so you can actually see what's going on across the board.
+
+00:36:05.400 --> 00:36:22.499
+<v Andy Byers> Andy Byers: This lets you have a quick overview of what's going on across all the articles that are currently under review. So down the right-hand side here, for example, you can see on 19044, you've got two completed reviews, and if you hover over the complete, it shows you what those recommendations were.
+
+00:36:22.500 --> 00:36:30.889
+<v Andy Byers> Andy Byers: You can see that there's a revision request, so this is currently a little bit overdue, 2nd of May. So that article's currently under revision.
+
+00:36:32.530 --> 00:36:39.420
+<v Andy Byers> Andy Byers: And it just sort of mirrors what you can see on this screen. There's also… if you have a large list of reviewers, you can also view these in table format.
+
+00:36:39.540 --> 00:36:52.809
+<v Andy Byers> Andy Byers: Where it's a little bit… a little bit thinner, so if you have a lot of reviews. We had one journal, basically, where they sent 30 review invites for every single article, and so they wanted a smaller review, so we did that for them.
+
+00:36:54.360 --> 00:37:01.189
+<v Andy Byers> Andy Byers: So, once we've got all our reviews in, we'd probably have one more at least. We can go to make a decision.
+
+00:37:01.650 --> 00:37:09.159
+<v Andy Byers> Andy Byers: And this will just… just lays out for us what's happened, and it's telling us here, the author won't be able to see this review.
+
+00:37:09.480 --> 00:37:17.689
+<v Andy Byers> Andy Byers: So if we click through… Back to the review screen… We can go in…
+
+00:37:17.920 --> 00:37:20.350
+<v Andy Byers> Andy Byers: And we can actually make this review visible.
+
+00:37:21.040 --> 00:37:25.770
+<v Andy Byers> Andy Byers: to the author. We can do that from, this switch here.
+
+00:37:26.220 --> 00:37:27.859
+<v Andy Byers> Andy Byers: You can also…
+
+00:37:28.180 --> 00:37:46.649
+<v Andy Byers> Andy Byers: set which of the fields they can see. So, by default, when you create a form, you can say, this field is just for the editor, or this field is okay for the author to see. And so, by default, you can see they can't see the rating field, that's just for the editor. They can see the review field, they can see this one, they can't see that one.
+
+00:37:46.650 --> 00:37:53.700
+<v Andy Byers> Andy Byers: And then they can see these bottom two. And you can… you can switch it individually as well if you want to, but by default, that's the way that works.
+
+00:37:53.880 --> 00:38:03.339
+<v Andy Byers> Andy Byers: And you have the option to edit them, so if the reviewer inadvertently reveals themselves, which happens more often than you would think, you can go in and you can write an editor version.
+
+00:38:06.830 --> 00:38:07.530
+<v Andy Byers> Andy Byers: Oops.
+
+00:38:09.240 --> 00:38:13.870
+<v Andy Byers> Andy Byers: And what this does, basically, is it creates an editor version of the…
+
+00:38:13.990 --> 00:38:23.650
+<v Andy Byers> Andy Byers: review. The original's always retained, so we know exactly what the reviewer originally submitted, but we've got the editor version. And this is the one that the author will see, and I'll show you that in a minute.
+
+00:38:24.460 --> 00:38:27.170
+<v Andy Byers> Andy Byers: So if we go back to our Make a Decision page…
+
+00:38:30.060 --> 00:38:35.879
+<v Andy Byers> Andy Byers: We can send it for revisions. In this case, that's what we want to do.
+
+00:38:36.100 --> 00:38:37.960
+<v Andy Byers> Andy Byers: We can give the author a due date.
+
+00:38:38.690 --> 00:38:43.859
+<v Andy Byers> Andy Byers: And we've got 3 revision options in Janeway, minor revisions, major revisions, and a conditional accept.
+
+00:38:44.180 --> 00:38:45.280
+<v Andy Byers> Andy Byers: So…
+
+00:38:45.310 --> 00:39:04.870
+<v Andy Byers> Andy Byers: Conditional Accept is a new one that we've added recently, which has been used by one of our journals, where they allow the authors to submit the article in any format they want, but when they accept it, they need to go back and edit it to fit the style guide of the journal before it goes to typesetting, so they have a Conditional Accept option.
+
+00:39:10.510 --> 00:39:11.200
+<v Andy Byers> Andy Byers: Oops.
+
+00:39:11.920 --> 00:39:18.230
+<v Andy Byers> Andy Byers: Oh my god, typing is so hard. So we're gonna send a minor revision request, and we can send that off.
+
+00:39:18.440 --> 00:39:20.609
+<v Andy Byers> Andy Byers: So I've got my nervous request down here.
+
+00:39:20.610 --> 00:39:24.690
+<v Meredith Martin> Meredith Martin:  Can you… Slow down a second, where is the templates for…
+
+00:39:24.800 --> 00:39:32.909
+<v Meredith Martin> Meredith Martin:  Where would we populate… I'm sorry, my vision is bad. Where would you populate that with a template, like, for the minor revision or something?
+
+00:39:32.910 --> 00:39:39.880
+<v Andy Byers> Andy Byers: Yeah, so Janeway has all the templates available for you to edit here. Okay, great. Yeah, and you can go through and change those.
+
+00:39:39.880 --> 00:39:43.979
+<v Meredith Martin> Meredith Martin:  Can you slow down and go back and show me where you clicked that to get to the email template?
+
+00:39:44.880 --> 00:39:49.769
+<v Andy Byers> Andy Byers: Yeah. I mean, we're gonna go over this in the… in the session next week, that's what that one's for.
+
+00:39:49.770 --> 00:39:51.200
+<v Meredith Martin> Meredith Martin:  Oh, okay, sorry, sorry, sorry.
+
+00:39:51.630 --> 00:39:56.680
+<v Andy Byers> Andy Byers: Yeah, we'll go a bit more in depth. I'll actually show you how to edit a template, what variables are available.
+
+00:39:56.680 --> 00:40:00.379
+<v Meredith Martin> Meredith Martin:  Great, ignore me then. I'm probably continuing to just get ahead of myself.
+
+00:40:01.240 --> 00:40:12.009
+<v Andy Byers> Andy Byers: We've got our review… sorry, revision request out here. It will have sent an email to the author telling them, or requesting the revision, but they can also come to the dashboard…
+
+00:40:12.650 --> 00:40:15.410
+<v Andy Byers> Andy Byers: And… And… where is it?
+
+00:40:17.550 --> 00:40:20.540
+<v Andy Byers> Andy Byers: What have I done? Have I not saved myself properly?
+
+00:40:23.530 --> 00:40:29.419
+<v Andy Byers> Andy Byers: There is their, sorry, 5th of December test article. They've got a revision request here, and they can just click straight into it.
+
+00:40:29.450 --> 00:40:33.579
+<v Andy Byers> Andy Byers: There's some guidance at the top here which you can edit, customizable.
+
+00:40:33.600 --> 00:40:50.439
+<v Andy Byers> Andy Byers: And then they'll be able to see the reviews down here. So I can see the editor version of the review, and a couple of the different fields. I can then go ahead, and I can either upload brand new files, or I can upload revised ones. So I'm just gonna revise this one…
+
+00:40:51.400 --> 00:40:52.800
+<v Andy Byers> Andy Byers: Upload that there…
+
+00:40:53.890 --> 00:40:59.590
+<v Andy Byers> Andy Byers: And maybe, actually, what I've done is I've added a new figure file, so I'm gonna upload a new figure file.
+
+00:41:02.440 --> 00:41:03.420
+<v Andy Byers> Andy Byers: Fig 2?
+
+00:41:04.350 --> 00:41:06.160
+<v Andy Byers> Andy Byers: So, we've got a new…
+
+00:41:07.120 --> 00:41:12.770
+<v Andy Byers> Andy Byers: a new revised manuscript, and another figure. And then they've got some, covering letter fields that they can fill in.
+
+00:41:24.300 --> 00:41:25.859
+<v Andy Byers> Andy Byers: Yes, I am sure.
+
+00:41:26.790 --> 00:41:31.420
+<v Andy Byers> Andy Byers: The editor will get an email just saying that the revision is complete.
+
+00:41:31.900 --> 00:41:41.499
+<v Andy Byers> Andy Byers: And then they can view the revision here. And what January does, actually, is it logs all the actions that the author took. So we can see they uploaded a brand new file, and they revised the…
+
+00:41:41.530 --> 00:41:57.230
+<v Andy Byers> Andy Byers: manuscript. And I've uploaded the same file, for the revision. So, we can then… we can then, send the article back out for review if we want to by clicking New Review Round. That'll start a fresh round.
+
+00:41:57.740 --> 00:42:06.159
+<v Andy Byers> Andy Byers: We can select the new manuscript file, and we can send that out to either the same reviewers or new reviewers if we want to, but we're…
+
+00:42:07.220 --> 00:42:16.089
+<v Andy Byers> Andy Byers: I think we've only got about 40 minutes left, so I'm gonna crack on. We're gonna accept this particular article. There is one other thing I want to show you on this screen, that's draft decisions.
+
+00:42:16.630 --> 00:42:20.489
+<v Andy Byers> Andy Byers: If you have, section editors.
+
+00:42:20.690 --> 00:42:30.070
+<v Andy Byers> Andy Byers: So that's sort of slightly below the editor role in Janeway. You can request that, or require that they draft their decision before it gets sent.
+
+00:42:30.600 --> 00:42:37.600
+<v Andy Byers> Andy Byers: And so I can, for example, say I would like to, draft and accept.
+
+00:42:38.010 --> 00:42:43.420
+<v Andy Byers> Andy Byers: Without revisions… And I would like to send this to…
+
+00:42:45.570 --> 00:42:50.019
+<v Andy Byers> Andy Byers: Amanda Smith, so Amanda Smith's going to be the senior editor who signs this off.
+
+00:42:50.250 --> 00:43:02.750
+<v Andy Byers> Andy Byers: I get to send an email to Samantha, that's this email here, and that's the draft of the email that would go to the author at the bottom. And I can submit that draft for review. So Samantha will receive a message saying, Andy Myers has created a draft decision.
+
+00:43:03.090 --> 00:43:15.859
+<v Andy Byers> Andy Byers: For this particular paper, and they'll come in and they'll be able to see, the message from me, they'll be able to see the draft of the email, and they'll be able to see the reviews to check that the reviews match the decision that was made.
+
+00:43:16.070 --> 00:43:23.850
+<v Andy Byers> Andy Byers: And they can either accept or decline that draft. If I accept it, that will accept the paper and send the email to the author, just accepting that.
+
+00:43:24.830 --> 00:43:28.610
+<v Andy Byers> Andy Byers: And that's quite useful. We use this a lot, actually.
+
+00:43:28.780 --> 00:43:37.180
+<v Andy Byers> Andy Byers: We do a lot of special collection publishing, and so it's quite useful for scene readers to have a little bit of oversight on the decisions that are being made.
+
+00:43:39.280 --> 00:43:52.349
+<v Andy Byers> Andy Byers: Here's one of the things I was mentioning about Crossref. When I, because I've got debug enabled on this particular journal, it's telling me, it's going to send some mess data to Crossref. It won't really, because I'm on a test version.
+
+00:43:52.350 --> 00:44:01.109
+<v Andy Byers> Andy Byers: But I can see this is what it's doing. It's basically sending… creating this DOI with this URL, and here are the author details.
+
+00:44:01.240 --> 00:44:04.300
+<v Andy Byers> Andy Byers: With the license, and the pages, numbers, and all that stuff.
+
+00:44:05.490 --> 00:44:08.819
+<v Andy Byers> Andy Byers: You won't see that on production, though, it's just on test.
+
+00:44:09.130 --> 00:44:16.339
+<v Andy Byers> Andy Byers: And we can send the email to the author just saying, congratulations, we're accepting your article. Yay! And the article goes into copy editing from there.
+
+00:44:18.840 --> 00:44:20.610
+<v Andy Byers> Andy Byers: So, copy editing…
+
+00:44:20.870 --> 00:44:26.510
+<v Andy Byers> Andy Byers: We can add a copy edit assignment, we can select from our list of copy editors, I hope I'm on this list.
+
+00:44:26.660 --> 00:44:29.030
+<v Andy Byers> Andy Byers: Who am I logged in as? That's a good question.
+
+00:44:30.410 --> 00:44:32.860
+<v Andy Byers> Andy Byers: I am logged in as…
+
+00:44:33.630 --> 00:44:41.069
+<v Andy Byers> Andy Byers: This email address that I don't use. Hopefully I'm in the list. Yes, I am. So I can select myself, I can send myself the revised manuscript.
+
+00:44:41.510 --> 00:44:47.179
+<v Andy Byers> Andy Byers: I can send myself… figures, if I want to, and I can write a note.
+
+00:44:53.070 --> 00:44:55.249
+<v Andy Byers> Andy Byers: You can also give copy editors a due date.
+
+00:44:57.180 --> 00:44:58.699
+<v Andy Byers> Andy Byers: And we can send that off.
+
+00:45:01.490 --> 00:45:03.510
+<v Andy Byers> Andy Byers: Okay, so we now have a copy edit task…
+
+00:45:04.380 --> 00:45:11.890
+<v Andy Byers> Andy Byers: And the copy editor will receive an email, and they can come into… or they can come into the dashboard. We can see the box here for copy editors.
+
+00:45:13.020 --> 00:45:14.569
+<v Andy Byers> Andy Byers: We can view our requests.
+
+00:45:14.740 --> 00:45:16.280
+<v Andy Byers> Andy Byers: We've got one active.
+
+00:45:16.520 --> 00:45:17.819
+<v Andy Byers> Andy Byers: We can view that.
+
+00:45:18.020 --> 00:45:24.270
+<v Andy Byers> Andy Byers: And so the copy editor gets access to some information about the article here, some general copy editing guidelines.
+
+00:45:24.480 --> 00:45:28.829
+<v Andy Byers> Andy Byers: And then we have the author's block, so you can see the author information.
+
+00:45:29.080 --> 00:45:34.499
+<v Andy Byers> Andy Byers: They can download the files that we assigned, and then they can upload the copyedited version here. So…
+
+00:45:35.290 --> 00:45:39.980
+<v Andy Byers> Andy Byers: I'm just gonna use the same file again, and we can do… EV copy edits…
+
+00:45:41.450 --> 00:45:43.210
+<v Andy Byers> Andy Byers: There's the label, and send that up.
+
+00:45:44.590 --> 00:45:48.200
+<v Andy Byers> Andy Byers: The editor will then get a note saying,
+
+00:45:48.620 --> 00:45:51.020
+<v Andy Byers> Andy Byers: That the copy editor has completed their task.
+
+00:45:52.600 --> 00:45:55.410
+<v Andy Byers> Andy Byers: And we'll see here, in the action log.
+
+00:45:55.780 --> 00:45:57.950
+<v Andy Byers> Andy Byers: The initial copy edit is complete.
+
+00:45:58.510 --> 00:46:01.530
+<v Andy Byers> Andy Byers: If we go into the review screen, we can see…
+
+00:46:01.820 --> 00:46:05.429
+<v Andy Byers> Andy Byers: The copyrighted version down here, and the note the copieder sent back.
+
+00:46:05.630 --> 00:46:12.809
+<v Andy Byers> Andy Byers: If the note from the copy editor says, this is the wrong file, or whatever, we can reopen the task and send it back to them.
+
+00:46:12.990 --> 00:46:26.560
+<v Andy Byers> Andy Byers: Or from here, we can send it for author review. A lot of journals don't do that step. I'm not sure if that's something you guys will do or not, but you can send this to the author for them to review the copy edits, if you want them to.
+
+00:46:27.520 --> 00:46:31.490
+<v Andy Byers> Andy Byers: Most journals will simply accept the copy edit at this point.
+
+00:46:34.680 --> 00:46:36.719
+<v Andy Byers> Andy Byers: And so…
+
+00:46:38.030 --> 00:46:46.540
+<v Andy Byers> Andy Byers: From here, you can create another copyedit assignment if you want to, or you can complete the copy editing stage, and that's copy editing. I know that
+
+00:46:46.690 --> 00:46:53.419
+<v Andy Byers> Andy Byers: Our copy editors do a lot of work in the background, but as far as Janeway's workflow goes, that's the basics of copyedit there.
+
+00:46:54.750 --> 00:46:56.880
+<v Andy Byers> Andy Byers: And then we move forward into typesetting.
+
+00:47:00.320 --> 00:47:13.320
+<v Andy Byers> Andy Byers: So, typesetting is both the newest and probably the most complex stage we have in January. The first thing we can do is we can, claim, claim this article as the production manager.
+
+00:47:14.450 --> 00:47:22.900
+<v Andy Byers> Andy Byers: So if we click Claim there, it's just gonna say antivirus is managing the typesetting stage. If we look at the list of articles in typesetting, you can see…
+
+00:47:26.480 --> 00:47:42.670
+<v Andy Byers> Andy Byers: You can see, for example, who… who is doing typesetting for each of them, just by looking down here. One of the other reasons for assigning a projected issue is that it shows up on these sort of little tables as well, which is really quite helpful. Because you can see, you know, this one's going volume 100, this one's going volume 11.
+
+00:47:43.490 --> 00:47:45.840
+<v Andy Byers> Andy Byers: So our first step is to assign a typesetter.
+
+00:47:48.810 --> 00:47:55.490
+<v Andy Byers> Andy Byers: So… Yeah, depending on, who you work with, we'll create an account for them.
+
+00:47:55.600 --> 00:48:00.059
+<v Andy Byers> Andy Byers: And you can just assign them a task, so… Assign it to myself…
+
+00:48:00.880 --> 00:48:14.549
+<v Andy Byers> Andy Byers: ChainWave will pick automatically all of the figures and data files, and then it asks you to select which manuscript you want to send, so we're going to select the copyedited file. You can use the modified field to work out which is the newest, but it's always the one at the bottom as well, really.
+
+00:48:14.660 --> 00:48:20.269
+<v Andy Byers> Andy Byers: If the file you want isn't here, you can go into Document Management and grab it from there.
+
+00:48:20.780 --> 00:48:30.690
+<v Andy Byers> Andy Byers: And then for due date, this is usually contractual, with your typesetter. For example, we use silicon chips, and our contractual turnaround time is 2 weeks.
+
+00:48:30.870 --> 00:48:40.559
+<v Andy Byers> Andy Byers: It's usually less than that, but you can set the deadline there, and there's some typesetting. This just shows you the typesetting guides. This is what the typesetter's gonna see in the typesetting guidelines.
+
+00:48:40.620 --> 00:48:56.140
+<v Andy Byers> Andy Byers: And this task block is where you can detail any other instructions. So, we deal with a lot of poetry journals, in HSS, so this is where the editor will say, pay close attention to the spacing for this particular stanza and stuff like that.
+
+00:49:08.900 --> 00:49:11.619
+<v Andy Byers> Andy Byers: And then we get the option to send the typesetter an email.
+
+00:49:13.120 --> 00:49:14.260
+<v Andy Byers> Andy Byers: Send that off.
+
+00:49:14.580 --> 00:49:18.089
+<v Andy Byers> Andy Byers: And they're gonna click the link and go straight into the assignment screen.
+
+00:49:21.410 --> 00:49:28.259
+<v Andy Byers> Andy Byers: So they'll come in… They'll go view assignment, and they're gonna get a bunch of metadata.
+
+00:49:28.640 --> 00:49:31.959
+<v Andy Byers> Andy Byers: They can see all the metadata for the article down here.
+
+00:49:34.210 --> 00:49:41.790
+<v Andy Byers> Andy Byers: They can see our instructions here at the top. They can see who the editor was that assigned it, so if they need to get in touch with us, they can.
+
+00:49:41.950 --> 00:49:44.270
+<v Andy Byers> Andy Byers: And they can accept the task.
+
+00:49:51.280 --> 00:49:56.700
+<v Andy Byers> Andy Byers: So they'll get access to the files, and then they will upload their galleys. So,
+
+00:49:57.110 --> 00:50:00.629
+<v Andy Byers> Andy Byers: I think I have some that I've stolen from another journal. Let's have a quick look.
+
+00:50:04.540 --> 00:50:08.940
+<v Andy Byers> Andy Byers: Nope, none there. Okay, so we'll jump onto… No leech.
+
+00:50:10.730 --> 00:50:13.220
+<v Andy Byers> Andy Byers: And we'll search for Martin Thief here.
+
+00:50:14.080 --> 00:50:21.170
+<v Andy Byers> Andy Byers: My authors… Martin, martin and I worked together to build Janeway before he moved.
+
+00:50:21.460 --> 00:50:23.500
+<v Andy Byers> Andy Byers: Moved on, so he was one.
+
+00:50:23.500 --> 00:50:24.560
+<v Meredith Martin> Meredith Martin:  She's a legend.
+
+00:50:24.800 --> 00:50:27.299
+<v Andy Byers> Andy Byers: He's a bit of a legend, yeah. He's a bit crazy.
+
+00:50:27.860 --> 00:50:29.319
+<v Meredith Martin> Meredith Martin:  Sure, but aren't we.
+
+00:50:29.320 --> 00:50:30.909
+<v Andy Byers> Andy Byers: I'm really… yeah.
+
+00:50:31.660 --> 00:50:48.220
+<v Andy Byers> Andy Byers: I'm really looking… he's actually writing a book about Star Trek Voyager right now, and obviously Janeway is named after Captain Janeway from Voyager. He's writing an academic book about Star Trek Voyager, and I'm so excited to see it. I keep pestering him about when it's coming out.
+
+00:50:49.080 --> 00:51:00.260
+<v Andy Byers> Andy Byers: Yeah, so the typesetter will upload their files, in this case a JATS XML and a PDF. They'll have the option to preview them, so they can preview the XML, see what it's gonna look like. Yes.
+
+00:51:00.940 --> 00:51:02.239
+<v Andy Byers> Andy Byers: What have I done here?
+
+00:51:02.820 --> 00:51:04.649
+<v Meredith Martin> Meredith Martin:  We're not looking, we've all looked away.
+
+00:51:05.320 --> 00:51:10.559
+<v Andy Byers> Andy Byers: Yeah, this is, again, I've been working on this, alt text stuff,
+
+00:51:11.270 --> 00:51:18.020
+<v Andy Byers> Andy Byers: I think I know what I… yeah, I uncommented the alt text, template block, so if we just reload…
+
+00:51:18.490 --> 00:51:19.660
+<v Andy Byers> Andy Byers: Come on…
+
+00:51:21.360 --> 00:51:28.290
+<v Andy Byers> Andy Byers: There we go. A bit of live debugging for you. Yeah, they'll be able to look at the article as it is published.
+
+00:51:28.410 --> 00:51:33.350
+<v Andy Byers> Andy Byers: They can actually see… the layout, of the content.
+
+00:51:33.840 --> 00:51:38.579
+<v Andy Byers> Andy Byers: Using this particularly bad theme, I don't really like material very much. It's one of…
+
+00:51:38.690 --> 00:51:43.749
+<v Andy Byers> Andy Byers: One of the more popular ones, I don't know why. I designed it about 4 years ago, and I kinda hate it now.
+
+00:51:43.960 --> 00:51:47.389
+<v Andy Byers> Andy Byers: Is it that thing where you sort of hate your own creation, you know?
+
+00:51:49.250 --> 00:52:01.310
+<v Andy Byers> Andy Byers: So, yeah, they'll be able to preview it. And the other thing they can do is upload their source files, and this is one of the things that Silicon Chips does for us, so they upload their InDesign file here, for the PDF, so we've always got that.
+
+00:52:01.450 --> 00:52:08.570
+<v Andy Byers> Andy Byers: And then they can mark the typesetting as complete down here. And that pings it back to the editor, so we'll see now this typesetting task is done.
+
+00:52:08.870 --> 00:52:14.449
+<v Andy Byers> Andy Byers: Which is good. So we, as the editor, can review the typesetting. We also can preview it.
+
+00:52:15.050 --> 00:52:32.270
+<v Andy Byers> Andy Byers: By clicking the preview buttons, and then we can make a decision. So, if we want to send it back to them to do some changes, because there's something wrong, we can select corrections. If we're happy, we can accept. If we want to send it for proofing, we can select proofing required. And then we can actually assign proofreaders
+
+00:52:32.980 --> 00:52:52.620
+<v Andy Byers> Andy Byers: So, Jamie, has two lots of proofreaders. One, a group of people who are assigned the proofreading role. You can see those people are those without the author chip. And the second group of proofreaders are the authors of this particular paper, which is me and Robert Collins, so I can assign myself as the… as the proofreader for this particular paper.
+
+00:52:52.760 --> 00:52:57.099
+<v Andy Byers> Andy Byers: Deadline for that, and send a little task off for me to proofread.
+
+00:52:57.320 --> 00:52:58.450
+<v Andy Byers> Andy Byers: this article.
+
+00:52:59.850 --> 00:53:02.759
+<v Andy Byers> Andy Byers: So they'll click the link, it brings them in.
+
+00:53:03.270 --> 00:53:12.699
+<v Andy Byers> Andy Byers: And they'll be able to see some guidelines on how to proofread. So, very basic stuff, make sure you actually look at the files, is the first one. If somebody tries.
+
+00:53:13.180 --> 00:53:17.270
+<v Andy Byers> Andy Byers: To mark the task as complete without doing anything, Janeway will tell the boss.
+
+00:53:17.620 --> 00:53:20.940
+<v Andy Byers> Andy Byers: We know you haven't looked at either of these files.
+
+00:53:21.070 --> 00:53:37.269
+<v Andy Byers> Andy Byers: So we'll go now go back. For the XML, we can click View, and they're gonna see the same preview that the typesetter has, so they'll be able to actually look at the XML. We have had trouble encouraging authors to look at them, and then I was in a meeting with some editors.
+
+00:53:37.360 --> 00:53:44.209
+<v Andy Byers> Andy Byers: where I was trying to encourage the editors to, like, make sure that the authors are looking at the XML, you know, we're becoming…
+
+00:53:44.350 --> 00:54:01.429
+<v Andy Byers> Andy Byers: we're seeing a shift in people actually reading the article on the screen, you know, staying on the article page for longer and longer periods of time. And so, you know, you want this to look good, so we were really encouraging authors to make sure they do check the XML, and the editors as well.
+
+00:54:01.610 --> 00:54:05.889
+<v Andy Byers> Andy Byers: Pdf is pretty simple, it's just gonna open up in a… in a tab.
+
+00:54:07.680 --> 00:54:12.230
+<v Andy Byers> Andy Byers: This template, by the way, no, that's not the template.
+
+00:54:12.490 --> 00:54:13.750
+<v Andy Byers> Andy Byers: There's a newer one.
+
+00:54:16.170 --> 00:54:26.329
+<v Andy Byers> Andy Byers: I don't know if you're able to take your template from TNF. Is it TNF or Wiley? I can't remember. If you're not able to take it, we have an open source template that you can use. This is it here.
+
+00:54:27.100 --> 00:54:30.510
+<v Andy Byers> Andy Byers: And we can send you a link to the open source template.
+
+00:54:30.710 --> 00:54:36.729
+<v Andy Byers> Andy Byers: And if you're using silicon chips, you can take that template to them and ask them to change it, because they actually made it. It's one of their ones.
+
+00:54:37.290 --> 00:54:42.100
+<v Andy Byers> Andy Byers: So when the proofreading is done…
+
+00:54:42.240 --> 00:54:45.869
+<v Andy Byers> Andy Byers: We can… let's close that… we can mark the task as complete.
+
+00:54:47.700 --> 00:54:54.369
+<v Andy Byers> Andy Byers: And then, as the editor, again, we'll get an email saying that proofing is done, and we'll be able to come in and see the completed task here.
+
+00:54:56.620 --> 00:54:58.210
+<v Andy Byers> Andy Byers: We can see any comments.
+
+00:54:58.460 --> 00:55:06.070
+<v Andy Byers> Andy Byers: And we can decide what to do next. So, if the periph readers come back and said, oh, there's loads of problems, we can click Request Corrections.
+
+00:55:07.510 --> 00:55:25.059
+<v Andy Byers> Andy Byers: And we can send it back to the typesetter. And this process knows that we're sending a correction, so it's preselected the typesetter from round 1, it's preselected all the files, it's preselected the galleys, it's including proofing comments, doing all that automatically. You just need to set, pardon me, the due date.
+
+00:55:26.100 --> 00:55:27.320
+<v Andy Byers> Andy Byers: And send that back off.
+
+00:55:29.440 --> 00:55:32.950
+<v Andy Byers> Andy Byers: There's a couple of other things on this screen,
+
+00:55:33.780 --> 00:55:48.320
+<v Andy Byers> Andy Byers: Supplementary files are available down here, so if you need to publish a data file, I don't know how often you do that. We have a couple of journals, where they often have data that go along with the paper, so they'll come in here, and they'll,
+
+00:55:48.760 --> 00:55:49.620
+<v Andy Byers> Andy Byers: Say again?
+
+00:55:49.910 --> 00:55:52.029
+<v Meredith Martin> Meredith Martin:  We will have the… we will have data.
+
+00:55:52.520 --> 00:56:00.850
+<v Andy Byers> Andy Byers: That's cool. So, when you have a data file, you can come in here, and it's probably best to do this before typesetting, because then the typesetter has access to them. You can choose a document.
+
+00:56:00.970 --> 00:56:06.850
+<v Andy Byers> Andy Byers: So, I uploaded that ODS file at the start, I can give it a label, subfile1, for example.
+
+00:56:07.090 --> 00:56:14.159
+<v Andy Byers> Andy Byers: And what JaneWeek can also do here, which is really cool, is it can mint a DOI for the supplementary file.
+
+00:56:16.160 --> 00:56:25.399
+<v Andy Byers> Andy Byers: And it's a… it's called a component DOI, so it links to the parent DOI, so Crossref know that the data file belongs to that paper. They're linked together.
+
+00:56:26.250 --> 00:56:27.170
+<v Andy Byers> Andy Byers: As well.
+
+00:56:28.640 --> 00:56:40.819
+<v Andy Byers> Andy Byers: That's it, really, for typesetting. You may have more than one round, usually one or two minimum. Well, one minimum, of course, but, you know, usually there's a second round with correction.
+
+00:56:41.120 --> 00:56:45.529
+<v Andy Byers> Andy Byers: They move from typesetting… Into Prepub.
+
+00:56:47.190 --> 00:56:54.679
+<v Andy Byers> Andy Byers: And so this is sort of a guide for prepping the article for publication. First step, check metadata is correct.
+
+00:56:54.960 --> 00:57:02.309
+<v Andy Byers> Andy Byers: So we can do that, we can look at the metadata, we can check whether we're happy with it or not, and if we're not, we can edit it.
+
+00:57:04.370 --> 00:57:06.149
+<v Andy Byers> Andy Byers: Let me make changes to it in here…
+
+00:57:06.850 --> 00:57:11.090
+<v Andy Byers> Andy Byers: We can edit the authors there as well, but if we're happy, we can check that box.
+
+00:57:11.240 --> 00:57:21.329
+<v Andy Byers> Andy Byers: We can assign it to an issue. So, right at the start, we marked it, soft, linked it with Volume 100, and it's just picked that out in green for us to make it very clear.
+
+00:57:23.010 --> 00:57:36.900
+<v Andy Byers> Andy Byers: That's fine. So, Jamie works on a primary issue system, so you can actually assign articles to multiple issues, and the first one you sign is marked as primary, so that's the one that's going to send to Crossref and DOAJ and…
+
+00:57:36.900 --> 00:57:49.039
+<v Andy Byers> Andy Byers: Portico and stuff like that. But we also have, issues that are just containers for articles. A really good example of this is on the OLH site. We have these things called collections.
+
+00:57:49.660 --> 00:57:52.960
+<v Andy Byers> Andy Byers: And they are groupings of articles on similar topics.
+
+00:57:53.240 --> 00:57:58.720
+<v Andy Byers> Andy Byers: And these are essentially issues, as far as Janeway is concerned, they're just a slightly different kind of issue.
+
+00:57:59.050 --> 00:58:08.339
+<v Andy Byers> Andy Byers: Rather than a sort of, volume… volume issue there, just a… an issue with the title. And so I could assign this article also to…
+
+00:58:08.470 --> 00:58:15.899
+<v Andy Byers> Andy Byers: thinking, the political theory… Theory, Literature, and Practice, and I can assign it there as well, so it will appear in both of those.
+
+00:58:16.180 --> 00:58:17.390
+<v Andy Byers> Andy Byers: sections.
+
+00:58:18.590 --> 00:58:27.519
+<v Andy Byers> Andy Byers: And you can use these for all sorts of things. So we have, farm reports, over in…
+
+00:58:28.370 --> 00:58:30.250
+<v Andy Byers> Andy Byers: Iowa?
+
+00:58:32.190 --> 00:58:36.019
+<v Andy Byers> Andy Byers: And… they, they use this to publish my farm.
+
+00:58:36.450 --> 00:58:42.810
+<v Andy Byers> Andy Byers: So they publish, issues each year, but they also then collect… group the collections by farm.
+
+00:58:44.500 --> 00:58:46.069
+<v Andy Byers> Andy Byers: So you can go in and look at farm.
+
+00:58:46.680 --> 00:58:53.729
+<v Andy Byers> Andy Byers: And it shows you all the past publications from this particular farm, which is just really cool. I really quite… quite like it. And it's so flexible.
+
+00:58:53.880 --> 00:58:55.900
+<v Andy Byers> Andy Byers: You know, you can do all sorts of different things with it.
+
+00:58:56.400 --> 00:59:14.750
+<v Andy Byers> Andy Byers: Verify DOI. So Janeway will create the DOI, mint it, and update it, and this simply tells you whether it's working or not. I'm getting a 404 here because this DOI is not real, doesn't exist. Generally speaking, you get a green tick. But if anything goes wrong with the DOI, you just drop me an email, and we can fix that for you.
+
+00:59:16.660 --> 00:59:23.180
+<v Andy Byers> Andy Byers: Galley rendering we don't care about anymore, that's coming out. Pub date, you can set articles to be published in the future.
+
+00:59:23.640 --> 00:59:26.899
+<v Andy Byers> Andy Byers: Just select, you know, 1 day, 2-day, 3D, whatever.
+
+00:59:27.190 --> 00:59:31.329
+<v Andy Byers> Andy Byers: I'm gonna do now… I'm actually gonna publish it in the past, so I'm gonna change that to yesterday.
+
+00:59:33.960 --> 00:59:46.250
+<v Andy Byers> Andy Byers: Date formats tend to be, localized, so if you're in the US, it'll show you the US format. In the UK, it shows the UK format. We used to force everyone to use the ISO format, but it freaked people out.
+
+00:59:49.460 --> 00:59:54.880
+<v Andy Byers> Andy Byers: Select article image, that's the hero image that appears at the top of the screen. I don't know if I have one that I can use.
+
+00:59:56.370 --> 01:00:01.709
+<v Andy Byers> Andy Byers: No, that's a Lugu.
+
+01:00:03.650 --> 01:00:05.560
+<v Andy Byers> Andy Byers: I must have downloaded an image, come on.
+
+01:00:06.140 --> 01:00:09.370
+<v Andy Byers> Andy Byers: There we go, there's one from Unsplash with a train. Let's go for that.
+
+01:00:09.940 --> 01:00:10.870
+<v Andy Byers> Andy Byers: Okay.
+
+01:00:14.340 --> 01:00:19.689
+<v Andy Byers> Andy Byers: And then we can send notifications at the end. So, this lets us email the authors.
+
+01:00:20.590 --> 01:00:25.069
+<v Andy Byers> Andy Byers: It also, if you have the setting enabled, allegedly… sorry, struggling a bit.
+
+01:00:25.200 --> 01:00:30.189
+<v Andy Byers> Andy Byers: With my throat. Also allows you to send an email to the peer reviewers, if you want to, as well.
+
+01:00:30.850 --> 01:00:32.079
+<v Andy Byers> Andy Byers: It's off by default.
+
+01:00:33.050 --> 01:00:34.010
+<v Andy Byers> Andy Byers: There we go.
+
+01:00:34.850 --> 01:00:36.920
+<v Andy Byers> Andy Byers: And then we can hit publish.
+
+01:00:37.720 --> 01:00:43.360
+<v Andy Byers> Andy Byers: So, if you set the article to publish in the future, it will then start appearing in the publication schedule.
+
+01:00:43.920 --> 01:00:48.059
+<v Andy Byers> Andy Byers: In here, so you can see these are all the… this is where future articles will appear.
+
+01:00:48.370 --> 01:00:52.899
+<v Andy Byers> Andy Byers: But there's sort of a… yeah, that's funny, he's just trying to…
+
+01:00:54.550 --> 01:01:02.130
+<v Andy Byers> Andy Byers: I was trying to send the article to Crossref, even though I've got it turned off. It will appear, yes, in the publication schedule.
+
+01:01:02.360 --> 01:01:10.060
+<v Andy Byers> Andy Byers: I was ready to go. And then very shortly afterwards… It'll appear online, as… Published.
+
+01:01:11.790 --> 01:01:13.979
+<v Andy Byers> Andy Byers: If we go to the article screen…
+
+01:01:14.860 --> 01:01:16.480
+<v Andy Byers> Andy Byers: We might have to clear the cache.
+
+01:01:18.720 --> 01:01:21.800
+<v Andy Byers> Andy Byers: There is there… Okay.
+
+01:01:22.770 --> 01:01:25.880
+<v Andy Byers> Andy Byers: This is the alt text thing I was working on earlier on.
+
+01:01:26.530 --> 01:01:28.090
+<v Andy Byers> Andy Byers: Oh my god, what have I done?
+
+01:01:34.640 --> 01:01:36.570
+<v Andy Byers> Andy Byers: This is what you get for life demoing.
+
+01:01:41.670 --> 01:01:43.540
+<v Meredith Martin> Meredith Martin:  We've all been there, you're doing great.
+
+01:01:43.930 --> 01:01:44.700
+<v Andy Byers> Andy Byers: Yeah.
+
+01:01:44.840 --> 01:01:55.750
+<v Andy Byers> Andy Byers: It's, it's a really good feature, it allows you to set alt text, for all the images.
+
+01:01:56.000 --> 01:01:59.290
+<v Andy Byers> Andy Byers: But it's still, as you can see, slightly experimental.
+
+01:01:59.780 --> 01:02:02.829
+<v Andy Byers> Andy Byers: That's the wrong file, that's why.
+
+01:02:03.970 --> 01:02:06.740
+<v Andy Byers> Andy Byers: Article…html.
+
+01:02:13.220 --> 01:02:15.359
+<v Andy Byers> Andy Byers: There it is there. Just take that out just now.
+
+01:02:21.950 --> 01:02:22.890
+<v Andy Byers> Andy Byers: There we go.
+
+01:02:24.760 --> 01:02:28.190
+<v Andy Byers> Andy Byers: So yeah, we can see… Same… seem as it was earlier on.
+
+01:02:28.570 --> 01:02:38.159
+<v Andy Byers> Andy Byers: This image is oddly tall. I think I must have changed some CSS. Is it really, really tall. But we can see the article there, we can see all the metadata down the right-hand side.
+
+01:02:38.420 --> 01:02:49.820
+<v Andy Byers> Andy Byers: Data availability, all that sort of stuff is there. And we've got our… we've got some accessibility controls, so let's you change the font size and dyslexia-friendly mode as well.
+
+01:02:51.840 --> 01:02:58.250
+<v Andy Byers> Andy Byers: Yeah, that's basically it for this session, and if anyone's got any questions, I'll be happy to try and answer them.
+
+01:03:03.380 --> 01:03:06.560
+<v Andy Byers> Andy Byers: I wasn't following the chat in case anyone was asking stuff in there.
+
+01:03:13.550 --> 01:03:15.680
+<v Meredith Martin> Meredith Martin:  I love it. I think it's great.
+
+01:03:17.370 --> 01:03:24.930
+<v Meredith Martin> Meredith Martin:  it's hard… I'm realizing I'm asking a lot of questions, based on integration stuff that I think you're gonna answer next week, and so…
+
+01:03:24.930 --> 01:03:25.550
+<v Andy Byers> Andy Byers: Yeah.
+
+01:03:25.550 --> 01:03:42.340
+<v Meredith Martin> Meredith Martin:  you know, everything that I'm… that I have, I think, is probably going to be answered next week, but I… I love how customizable it is, I love how integrated it is, and you know, we'd been stressing out about having to do a sort of push-pull situation with Asana for our workflow, because Scholastica doesn't really let us see, kind of, where things are.
+
+01:03:42.560 --> 01:03:50.619
+<v Meredith Martin> Meredith Martin:  And, I don't think we're gonna have to do that. I think it's just… I think it's just all in one place, it's beautiful. We're just like…
+
+01:03:51.060 --> 01:04:07.780
+<v Meredith Martin> Meredith Martin:  We're super psyched. So you're basically saving us, like, $700 in Asana seats that we would have to pay to build what we thought we were gonna have to do to have sort of, like, you know, Gantt charts and whatever. Since we are kind of a large team, I think that was one of our main concerns, was how to track things through the pipeline, and you've solved it.
+
+01:04:08.110 --> 01:04:16.709
+<v Meredith Martin> Meredith Martin:  I'll be interested, when we do stuff next week about different customizations, probably for things like colors, like distinguishing editors from…
+
+01:04:16.760 --> 01:04:28.680
+<v Meredith Martin> Meredith Martin:  reviewers, or, you know, easy access to… because there's a lot in the dev site I'm seeing that's kind of same-same looking, and I think for my own brain, I might need a little bit of distinctiveness back there, but,
+
+01:04:29.360 --> 01:04:30.330
+<v Meredith Martin> Meredith Martin:  Was it…
+
+01:04:30.330 --> 01:04:31.399
+<v Andy Byers> Andy Byers: Yeah, we actually…
+
+01:04:31.400 --> 01:04:32.420
+<v Meredith Martin> Meredith Martin:  Go ahead.
+
+01:04:32.420 --> 01:04:36.829
+<v Andy Byers> Andy Byers: No, I was just saying, we actually have a redesign of the back office coming out pretty soon.
+
+01:04:36.830 --> 01:04:37.260
+<v Meredith Martin> Meredith Martin:  Oh, nice.
+
+01:04:37.260 --> 01:04:47.360
+<v Andy Byers> Andy Byers: huge, it's not huge in terms of when it changes, but it's moving slightly away from this sort of grey-blue… Yeah. Grey on, grey on grey-blue, we're moving away from that.
+
+01:04:47.590 --> 01:04:49.149
+<v Andy Byers> Andy Byers: Yeah, so…
+
+01:04:49.150 --> 01:04:51.660
+<v Meredith Martin> Meredith Martin:  That was my only… I'm just old, so I'm, like, squinting at my…
+
+01:04:51.660 --> 01:04:54.230
+<v Andy Byers> Andy Byers: the same. I'm absolutely the same, I get that.
+
+01:04:54.230 --> 01:04:57.360
+<v Meredith Martin> Meredith Martin:  Yeah, and when I saw these colors, I was like, yeah, colors, yeah.
+
+01:04:57.690 --> 01:05:08.310
+<v Andy Byers> Andy Byers: There's a lot more of that, so we actually are doing a redesign of our website, and we did this really long process where we sat with a designer and we talked about.
+
+01:05:08.310 --> 01:05:08.740
+<v Meredith Martin> Meredith Martin:  Yep.
+
+01:05:08.740 --> 01:05:12.110
+<v Andy Byers> Andy Byers: Yeah, the influences that we had, and she came
+
+01:05:12.440 --> 01:05:14.699
+<v Andy Byers> Andy Byers: Amazing color palette, so we're gonna be using that as the.
+
+01:05:14.700 --> 01:05:15.120
+<v Meredith Martin> Meredith Martin:  Okay.
+
+01:05:15.120 --> 01:05:15.640
+<v Andy Byers> Andy Byers: this.
+
+01:05:15.640 --> 01:05:19.209
+<v Meredith Martin> Meredith Martin:  Great. So that'll be coming out pretty soon, I think Joe's working on it at the moment, so I'm gonna…
+
+01:05:19.210 --> 01:05:24.010
+<v Andy Byers> Andy Byers: That'll help. Yeah, I mean, that was my only initial overarching one, was just the visibility for me.
+
+01:05:24.010 --> 01:05:37.539
+<v Meredith Martin> Meredith Martin:  And then I overheard you say… you met, you know, you mentioned sending stuff out to Portico, and so, in addition to Crossraff, do you guys… you're the ones who manage the account with Portico and Ithaca and all of that? Because I'm having trouble figuring that out with Scholastica.
+
+01:05:37.850 --> 01:05:39.640
+<v Andy Byers> Andy Byers: Yeah.
+
+01:05:39.640 --> 01:05:42.539
+<v Meredith Martin> Meredith Martin:  Like, how does the indexing work, DOHA?
+
+01:05:42.670 --> 01:05:43.510
+<v Meredith Martin> Meredith Martin:  Do you connect?
+
+01:05:43.510 --> 01:05:44.040
+<v Andy Byers> Andy Byers: shit.
+
+01:05:44.230 --> 01:05:49.759
+<v Meredith Martin> Meredith Martin:  I mean, we have DOAJ already, but, like, how do we hook you into all that?
+
+01:05:49.760 --> 01:05:54.049
+<v Andy Byers> Andy Byers: Yeah, with DOAJ, nice and simple, you just create an API key, and you send it to us, and that's it.
+
+01:05:54.050 --> 01:05:54.990
+<v Meredith Martin> Meredith Martin:  Okay, great.
+
+01:05:54.990 --> 01:05:59.659
+<v Andy Byers> Andy Byers: Yeah, with Puritico, you do need to have your own account with them.
+
+01:05:59.660 --> 01:06:03.779
+<v Meredith Martin> Meredith Martin:  You, but I don't know how to transfer it to me from the go.
+
+01:06:03.780 --> 01:06:15.330
+<v Andy Byers> Andy Byers: It's easy. Yeah, email Ithaca, ask them for your username and password, and then give it to me, and then I do the rest. So there's not… yeah, a lot of it's… a lot of it's us that does that bit. We have plugins that manage all this stuff for us, so we don't.
+
+01:06:15.330 --> 01:06:19.040
+<v Meredith Martin> Meredith Martin:  I knew you did, but I was trying to figure out then how do I do it? Okay, so then…
+
+01:06:19.040 --> 01:06:19.420
+<v Andy Byers> Andy Byers: Yeah.
+
+01:06:19.420 --> 01:06:34.040
+<v Meredith Martin> Meredith Martin:  So I write to Ithaca and get the Portugo information, and then you just take care of it. Okay, perfect. And Andrew didn't know either. He's like, I think Scholastica did it. And I was like, well, then how do I do it, you know? Okay, so those are my other ones. And then hosting-wise.
+
+01:06:34.050 --> 01:06:41.140
+<v Meredith Martin> Meredith Martin:  We keep our URL with its original… like, the name domain is with Bluehost or whatever, we just keep it, and then…
+
+01:06:41.320 --> 01:06:43.150
+<v Meredith Martin> Meredith Martin:  That's… that's how it is? Or do you…
+
+01:06:43.150 --> 01:06:43.720
+<v Andy Byers> Andy Byers: Yeah.
+
+01:06:43.720 --> 01:06:45.090
+<v Meredith Martin> Meredith Martin:  over the URL.
+
+01:06:45.090 --> 01:06:58.379
+<v Andy Byers> Andy Byers: It's up to you. We can send you instructions on how to point it at our server, or you can hand it over to us, and transfer it to us, and we can maintain it for you while you're with us. Obviously, you retain ownership of the domain.
+
+01:06:58.670 --> 01:06:59.110
+<v Meredith Martin> Meredith Martin:  Yeah.
+
+01:06:59.110 --> 01:07:04.610
+<v Andy Byers> Andy Byers: We just hand it back to you when the contract ends, just by transferring it back to you. It's up to you.
+
+01:07:04.610 --> 01:07:07.600
+<v Meredith Martin> Meredith Martin:  Is it part of our package to transfer the name over?
+
+01:07:07.600 --> 01:07:09.939
+<v Andy Byers> Andy Byers: Yeah, we control it all as part of it.
+
+01:07:09.940 --> 01:07:17.579
+<v Meredith Martin> Meredith Martin:  So, I mean, it would save us money, then, not to pay Bluehost to just have the domain name. Okay, so we should probably do that. So I'll work… I'll work with…
+
+01:07:17.950 --> 01:07:20.049
+<v Meredith Martin> Meredith Martin:  I'm gonna ask Matthew to homie with that.
+
+01:07:20.470 --> 01:07:36.689
+<v Meredith Martin> Meredith Martin:  If you're still there, Matthew, just because it's been a night… I have so many different accounts that I have to kind of figure out and transfer over and move, so… Okay, great, so Matthew can help with that. I got super confused about that, because I was like, I thought they were going to host, because it was called Bluehost. I was like, oh, it's just a name, okay?
+
+01:07:37.420 --> 01:07:46.629
+<v Meredith Martin> Meredith Martin:  Anyway, okay, that's fantastic, and then we'll just go through all the configuration. I mean, Rebecca, do you have questions? And I don't know if Sarah's back, I mean.
+
+01:07:46.650 --> 01:08:04.489
+<v Meredith Martin> Meredith Martin:  we're trying to kind of think about how we can have our layered types of publications. We have our articles, and then eventually we want to have a kind of pointer over to the data collectives, and so we might have sort of two workflows in one, but I think we could manage that with colors.
+
+01:08:04.920 --> 01:08:07.720
+<v Meredith Martin> Meredith Martin:  Yeah, Rebecca, anybody else have questions, or…
+
+01:08:08.260 --> 01:08:13.109
+<v Rebecca Koeser> Rebecca Koeser:  I have things I'm curious about, but I don't think they really are worth digging into, I'm just, like.
+
+01:08:13.110 --> 01:08:17.219
+<v Meredith Martin> Meredith Martin:  No, do it! This is your time! Like, seeing how it's built and housed.
+
+01:08:17.220 --> 01:08:20.040
+<v Rebecca Koeser> Rebecca Koeser:  And I like what you touched on, like, the…
+
+01:08:20.310 --> 01:08:26.009
+<v Rebecca Koeser> Rebecca Koeser:  keep everything in the database and structure it the way you need to, and then map to the export formats and talk to the APIs is cool.
+
+01:08:26.460 --> 01:08:30.220
+<v Andy Byers> Andy Byers: Yeah, it's a Django model, so if you've ever come across Django before.
+
+01:08:30.220 --> 01:08:33.700
+<v Rebecca Koeser> Rebecca Koeser:  Yeah, I'm very familiar. We are…
+
+01:08:34.109 --> 01:08:36.229
+<v Andy Byers> Andy Byers: We've developed in Django.
+
+01:08:36.500 --> 01:08:48.529
+<v Andy Byers> Andy Byers: Yeah, I love Django. I… one of the reasons we started Janeway, as I mentioned earlier, when I started off working on PKP's OJS, was that I hate PHP, which is the language they use.
+
+01:08:48.529 --> 01:08:57.870
+<v Andy Byers> Andy Byers: And we wanted to model it, and so we moved over onto Django. And Django was actually built by publishers, that was… the people who started building it were publishers.
+
+01:08:57.979 --> 01:09:01.800
+<v Andy Byers> Andy Byers: And so, yeah, we… you… it just made sense, you know.
+
+01:09:01.800 --> 01:09:02.120
+<v Rebecca Koeser> Rebecca Koeser:  Yes.
+
+01:09:02.120 --> 01:09:15.350
+<v Andy Byers> Andy Byers: article model, you can build an author model, and it all just sort of works most of the time. But it also gives us really cool sort of utilities, so we have all this workflow in Janeway, but we also have the admin area, which is auto-generated.
+
+01:09:15.359 --> 01:09:17.709
+<v Rebecca Koeser> Rebecca Koeser:  Yeah, so that looked very familiar to us.
+
+01:09:18.469 --> 01:09:21.408
+<v Andy Byers> Andy Byers: If you ever need to, like, dive in and fix something, you can go here.
+
+01:09:21.410 --> 01:09:24.080
+<v Rebecca Koeser> Rebecca Koeser:  Are you running it as a multi-instance?
+
+01:09:24.520 --> 01:09:27.270
+<v Rebecca Koeser> Rebecca Koeser:  site? Are you using the site's capability of Django?
+
+01:09:27.828 --> 01:09:31.899
+<v Andy Byers> Andy Byers: You can, yeah. So, for example,
+
+01:09:32.198 --> 01:09:46.919
+<v Andy Byers> Andy Byers: OpenLibhums.org. This is… this is Janeway. This is a highly customized version, you… I wouldn't expect your site to look anything like this. It took us 6 months to make this work, but all of the journals listed here are in a single instance of,
+
+01:09:46.919 --> 01:10:01.229
+<v Andy Byers> Andy Byers: of Janeway. We have our own custom site framework, though, it's not using Django Sites. Okay. Yeah, we have our own one called Site. Funnily enough, it's just Site, but customized. Okay. But it works in a similar way, so it matches… it matches domains to under.
+
+01:10:01.230 --> 01:10:01.640
+<v Rebecca Koeser> Rebecca Koeser:  Understandable.
+
+01:10:01.640 --> 01:10:06.959
+<v Andy Byers> Andy Byers: which object you're looking at. One other thing that you should know is that we also deploy Anubis.
+
+01:10:07.020 --> 01:10:21.110
+<v Andy Byers> Andy Byers: When you… if you pay very, very close attention to when I click this button, you'll see this making sure you're not a bot thing. So we deploy that on most of our installs because we have trouble with AI bots, killing our services.
+
+01:10:21.170 --> 01:10:32.499
+<v Andy Byers> Andy Byers: So that appears once, and then doesn't appear again when you reload pages or move around, but, we find that to be remarkable in reducing bot traffic. It's unbelievable.
+
+01:10:33.630 --> 01:10:34.300
+<v Rebecca Koeser> Rebecca Koeser:  Okay.
+
+01:10:38.630 --> 01:10:41.140
+<v Rebecca Koeser> Rebecca Koeser:  Yeah, I don't have other immediate questions.
+
+01:10:41.510 --> 01:10:57.190
+<v Andy Byers> Andy Byers: If you have any, you're welcome to join our Discord, and we have a group of developers on there. We have people from PLOS and lots of other organizations who are members of our Discord, and we have a developer channel as well, where people can chat about Janeway and stuff like that, so…
+
+01:10:57.350 --> 01:11:00.559
+<v Andy Byers> Andy Byers: There's also a plugins framework if you're interested in building anything, so…
+
+01:11:00.560 --> 01:11:00.920
+<v Rebecca Koeser> Rebecca Koeser:  Okay.
+
+01:11:01.160 --> 01:11:05.299
+<v Meredith Martin> Meredith Martin:  But we are… I mean, that's what we're kind of trying to consider, is should we build something
+
+01:11:05.400 --> 01:11:22.030
+<v Meredith Martin> Meredith Martin:  in addition to having this for the data collectives, I think that was Sarah… Sarah logged off, but I think some of the collectives of data collectives folks are trying to think, should we do something separate, or should we try to do something within JCA? And so that's kind of… we're sort of in the middle there, and yeah. You know…
+
+01:11:22.030 --> 01:11:30.150
+<v Andy Byers> Andy Byers: I mean, we can probably… it'd be interesting to know what they're doing, and how we could help you support that, because there's lots of things in Janeway for doing weird and wonderful stuff.
+
+01:11:30.150 --> 01:11:30.680
+<v Meredith Martin> Meredith Martin:  Year.
+
+01:11:30.680 --> 01:11:43.479
+<v Andy Byers> Andy Byers: So, we have the journal workflow, but we also have a repository platform. This is an example of it here with Iowa State, and so what they have here are essentially non-peer-reviewed objects.
+
+01:11:43.560 --> 01:11:51.330
+<v Andy Byers> Andy Byers: With different object types. You can see this is a lab, this is a homework assignment, that kind of thing. And they use these to link into OERs.
+
+01:11:51.490 --> 01:11:57.210
+<v Andy Byers> Andy Byers: So, this is connected to our books plugin, because we can publish books in Janeway as well.
+
+01:11:57.210 --> 01:12:14.029
+<v Andy Byers> Andy Byers: And you can see, for example, this particular object is linked to this particular book, and stuff like that. So there's lots of weird stuff you can do with Janeway. Yeah. And so, you know, if you're interested in how that could work together, you can give us sort of a briefing at some point on what it is you're doing, and we can say, well, you know, Janeway has this, this might.
+
+01:12:14.030 --> 01:12:15.020
+<v Meredith Martin> Meredith Martin:  We can go from there.
+
+01:12:16.360 --> 01:12:23.369
+<v Rebecca Koeser> Rebecca Koeser:  That sounds interesting, Meredith, to think… I think that is the big problem, is how do those things connect, and if they could live together…
+
+01:12:23.370 --> 01:12:24.489
+<v Meredith Martin> Meredith Martin:  We prefer it.
+
+01:12:24.490 --> 01:12:26.130
+<v Rebecca Koeser> Rebecca Koeser:  That sounds really powerful, and if that.
+
+01:12:26.130 --> 01:12:26.680
+<v Meredith Martin> Meredith Martin:  Yeah.
+
+01:12:26.680 --> 01:12:29.059
+<v Rebecca Koeser> Rebecca Koeser:  An extension or whatever that could be built to…
+
+01:12:29.060 --> 01:12:39.569
+<v Meredith Martin> Meredith Martin:  I prefer it. I mean, Andy, the post-45 one is a lot more complicated than the one that we have, which is the 19th Century Data Collective. I just put it in the chat if you want to click on it so you can see. It's not…
+
+01:12:39.720 --> 01:12:45.659
+<v Meredith Martin> Meredith Martin:  It's its own… Journal, in a way, but all it reviews is datasets.
+
+01:12:45.900 --> 01:12:55.740
+<v Meredith Martin> Meredith Martin:  And so, the thing that we need for it to be nice is access to the data set. So if you click on our data, up at the top.
+
+01:12:57.090 --> 01:13:05.130
+<v Meredith Martin> Meredith Martin:  You'll see, if you click on the dataset, that there's this kind of beautiful way that they've done it, so that if you scroll down, you can actually see integrated data tables.
+
+01:13:05.700 --> 01:13:18.319
+<v Meredith Martin> Meredith Martin:  And that's been really nice for people who don't really know their way around, because it's both a… it's both a publication frame for datasets to get DOIs from the humanities, which is really nice, and the data papers and the associated READMEs and all that stuff.
+
+01:13:18.320 --> 01:13:33.400
+<v Meredith Martin> Meredith Martin:  But then also, it's a kind of pedagogical way of showing how people might be able to do stuff with data at the same time. And the 19th century data collective isn't quite there yet, because we've only got a couple… we only have, like, 3 data sets, and we don't really have the tables integrated into the front end.
+
+01:13:33.490 --> 01:13:46.719
+<v Meredith Martin> Meredith Martin:  But this workflow for… like, they don't… they're not even hosting it anywhere, like, it's on a GitHub. I can't remember what they're… what they built this version in, and it's just kind of like a… it's kind of cobbled together. Yeah.
+
+01:13:47.230 --> 01:13:51.050
+<v Meredith Martin> Meredith Martin:  We want to kind of come up with something a little bit more… a little more robust, and…
+
+01:13:51.440 --> 01:14:10.690
+<v Andy Byers> Andy Byers: I mean, this is the kind of thing we can develop our repository to do, and it's the kind of thing we want to develop our repository to do. One of the projects that we're picking up next year is we're taking, the institutional repository at Birkbeck, and we're moving that onto Janeway, and we're taking the data… yeah, we're taking the data repository from Birkbeck and moving that onto Janeway as well.
+
+01:14:10.690 --> 01:14:17.760
+<v Andy Byers> Andy Byers: So one of the things I've been working on is… it's not as complex as this, but very basic representations of the objects that have been uploaded.
+
+01:14:17.760 --> 01:14:31.220
+<v Andy Byers> Andy Byers: So, if you upload a CSV or an Excel, what the system currently does is gives you a preview of maybe the top 20 rows, but we'd like to extend beyond that, to having perhaps an interactive data frame.
+
+01:14:31.220 --> 01:14:31.580
+<v Meredith Martin> Meredith Martin:  Yeah.
+
+01:14:31.580 --> 01:14:34.309
+<v Andy Byers> Andy Byers: like Pandas to generate those with Python, it's all…
+
+01:14:34.310 --> 01:14:52.260
+<v Meredith Martin> Meredith Martin:  Yeah, we would… that's, I think, what we're wanting. I think people… people are eager for that kind of thing. So that's one possibility, like, toward the future that Sarah and I are really interested in, as Sarah kind of comes on to help us oversee it, because right now, JCA publishes data papers, but they just throw the data sets into Dataverse. There's not even a README.
+
+01:14:52.300 --> 01:15:05.889
+<v Meredith Martin> Meredith Martin:  Or they just have… or so there's data sets associated with the journal papers, those just go into Dataverse without even a README, and so that's already a problem. And then we also publish separate, what they call dataset essays, which are really data papers.
+
+01:15:05.890 --> 01:15:14.910
+<v Meredith Martin> Meredith Martin:  And there, the data just has to be accessible via any institutional repository, and also, I think, maybe have an instance in Dataverse, I can't remember. So we kind of want to clear up…
+
+01:15:14.910 --> 01:15:20.369
+<v Meredith Martin> Meredith Martin:  And, like, not homogenize totally that process, because we don't want to force people to put their data
+
+01:15:20.370 --> 01:15:33.569
+<v Meredith Martin> Meredith Martin:  somewhere they don't want to, but just kind of make it so that there's a logical workflow. So we want to think about it with Journal of Open Humanities data, the Collective of Data Collective's people, and then any journal that's doing something with data
+
+01:15:33.570 --> 01:15:45.640
+<v Meredith Martin> Meredith Martin:  like this that could be helpful, because the easier it is for everyone to understand that this is an academic enterprise to create these datasets and to interpret them, the better it'll be for the humanities, so…
+
+01:15:45.640 --> 01:15:54.739
+<v Meredith Martin> Meredith Martin:  It's tricky, I mean, it also helps with, like, replication, and it helps with people understanding that we're not just conject… you know, conjectural, it's not all exploratory,
+
+01:15:54.790 --> 01:15:59.879
+<v Meredith Martin> Meredith Martin:  Humanities-style work, but it actually is something that people can go back and test and think through, so…
+
+01:16:00.120 --> 01:16:02.870
+<v Meredith Martin> Meredith Martin:  Yeah, so that's one of our… one of my…
+
+01:16:03.400 --> 01:16:16.299
+<v Meredith Martin> Meredith Martin:  once… once I get through all the migration stuff, that's where I'm going to be putting my energy, because I'm kind of like the data set, data paper editor, and then we've got the regular special issues editor articles and all the editorial, assistance, so…
+
+01:16:16.610 --> 01:16:21.990
+<v Rebecca Koeser> Rebecca Koeser:  Andy, it occurs to me, this maybe is already on your radar, how you're thinking about it, but WebAssembly with, like.
+
+01:16:22.330 --> 01:16:28.680
+<v Rebecca Koeser> Rebecca Koeser:  Python and Polars means that generating dynamic data tables is now almost trivial.
+
+01:16:29.170 --> 01:16:29.780
+<v Andy Byers> Andy Byers: Yeah.
+
+01:16:29.780 --> 01:16:32.979
+<v Rebecca Koeser> Rebecca Koeser:  We've been playing with Marimo notebooks, which compile to WebAssembly, but…
+
+01:16:33.190 --> 01:16:38.760
+<v Rebecca Koeser> Rebecca Koeser:  like, a widget for displaying that would be really cool, and I could see usable across all these things.
+
+01:16:38.760 --> 01:16:39.460
+<v Andy Byers> Andy Byers: Yeah.
+
+01:16:39.810 --> 01:16:43.929
+<v Andy Byers> Andy Byers: Yeah, it'd be really good. I mean, one of the ones we were talking also about was code as well, so…
+
+01:16:44.330 --> 01:16:51.509
+<v Andy Byers> Andy Byers: notebooks, embedding Jupyter notebooks as well, all sorts of stuff. Let me give you a plug for Merimo over Jupyter.
+
+01:16:51.790 --> 01:16:53.130
+<v Andy Byers> Andy Byers: Yeah, okay.
+
+01:16:53.130 --> 01:16:54.409
+<v Meredith Martin> Meredith Martin:  should join their Discord.
+
+01:16:55.220 --> 01:17:01.290
+<v Rebecca Koeser> Rebecca Koeser:  Because I don't have enough things. I mean, I'm in that situation where…
+
+01:17:01.290 --> 01:17:07.500
+<v Andy Byers> Andy Byers: there's so much that I'd love to do, but my to-do list is… well…
+
+01:17:07.780 --> 01:17:08.170
+<v Rebecca Koeser> Rebecca Koeser:  Same.
+
+01:17:08.170 --> 01:17:12.790
+<v Andy Byers> Andy Byers: how long is a piece of string, you know? That's where I am at the moment, so…
+
+01:17:12.790 --> 01:17:28.379
+<v Andy Byers> Andy Byers: But yeah, it's an area. I mean, the repository is our big, sort of, push for the next, the next year. We do journals quite well, we do books as a sort of side. We, you know, we're not into… there's no workflow for books, it's simply a publication tool for, you know.
+
+01:17:28.500 --> 01:17:36.000
+<v Andy Byers> Andy Byers: putting some metadata and some files on. Repositories is our… is our area we want to, sort of, push into, and cover.
+
+01:17:36.000 --> 01:17:42.190
+<v Rebecca Koeser> Rebecca Koeser:  The repository, you're connecting to an existing repository, or are you actually the repository for the data?
+
+01:17:42.530 --> 01:18:00.760
+<v Andy Byers> Andy Byers: It's a repository itself, yeah. It started life as a preprint platform. If you have a look at Earth Archive, for example, that runs on Janeway, and there's a bunch of other ones as well, but we've sort of expanded it so that the object is no longer a preprint, it's a generic object.
+
+01:18:01.050 --> 01:18:06.659
+<v Andy Byers> Andy Byers: that can be any sort of file, rather than just a PDF, which is what it was originally.
+
+01:18:06.780 --> 01:18:10.739
+<v Andy Byers> Andy Byers: Yeah, that's… that's where we're going. So it is built into Janeway.
+
+01:18:10.960 --> 01:18:12.990
+<v Rebecca Koeser> Rebecca Koeser:  What's the data store for those objects?
+
+01:18:13.520 --> 01:18:22.320
+<v Andy Byers> Andy Byers: It's, again, it's a, it's just a custom build, similar to the journal platform. Okay.
+
+01:18:22.320 --> 01:18:24.049
+<v Rebecca Koeser> Rebecca Koeser:  Django file…
+
+01:18:24.400 --> 01:18:40.730
+<v Andy Byers> Andy Byers: Yeah, yeah, the underlying object, yeah, just a Django file object, yeah. I think the most recent update I added to it was, that it can read ODT, CSV, and Excel files and display, sort of, previews of those.
+
+01:18:40.930 --> 01:18:41.290
+<v Rebecca Koeser> Rebecca Koeser:  Indeed.
+
+01:18:41.290 --> 01:19:01.229
+<v Andy Byers> Andy Byers: previews of images, previews of text. It can display full HTML articles, so if you upload an HTML file, it will display that in the browser, and it can embed PDFs as well. But yeah, we want to expand beyond that and have, sort of, support for lots of different object types, EPUB and others as well, are on the radar for us. But yeah, there's nothing really particularly…
+
+01:19:01.380 --> 01:19:04.240
+<v Andy Byers> Andy Byers: Strange lying… underlying that.
+
+01:19:04.240 --> 01:19:09.419
+<v Rebecca Koeser> Rebecca Koeser:  Right, that sounds like it aligns well with the data collective. You mentioned EPUB. Do you generate EPUB?
+
+01:19:09.680 --> 01:19:11.759
+<v Rebecca Koeser> Rebecca Koeser:  Currently, from… for articles, or not yet?
+
+01:19:11.950 --> 01:19:19.780
+<v Andy Byers> Andy Byers: Not yet. We do HTML, so we can generate HTML from Word, RTF, ODT, you know, pretty much any
+
+01:19:19.990 --> 01:19:24.769
+<v Andy Byers> Andy Byers: malleable input. We use Pandoc. So…
+
+01:19:24.770 --> 01:19:28.140
+<v Rebecca Koeser> Rebecca Koeser:  We've been working on that for PDF as well, we want to do PDFs.
+
+01:19:28.150 --> 01:19:32.879
+<v Andy Byers> Andy Byers: And then EPUB's on the list, because if you can do HTML, you can do EPUB, right? Right.
+
+01:19:32.880 --> 01:19:34.349
+<v Rebecca Koeser> Rebecca Koeser:  Package HTML? Okay.
+
+01:19:34.350 --> 01:19:39.069
+<v Andy Byers> Andy Byers: Yeah. Difficulty with EPO is getting it… doing it well, I think, you know.
+
+01:19:39.220 --> 01:19:43.150
+<v Andy Byers> Andy Byers: Output can be… Interesting.
+
+01:19:45.460 --> 01:19:49.950
+<v Andy Byers> Andy Byers: That's the best way of describing it, especially with images, right? You know, images can be a pain in the butt.
+
+01:19:49.950 --> 01:20:01.330
+<v Rebecca Koeser> Rebecca Koeser:  Yes, yes, and there's versions of EPUB. EPUB has been on my radar because we were connected to this, preserving embeddability… embedding… no, embedding preservability.
+
+01:20:01.480 --> 01:20:14.409
+<v Rebecca Koeser> Rebecca Koeser:  grant, and they talked to us about our little experimental startwards journey, and so they thought… they… they have a strong push… I forget the name of the lead researcher on that, but the EPUB has a better preservation than PDF.
+
+01:20:14.680 --> 01:20:18.949
+<v Rebecca Koeser> Rebecca Koeser:  And the problem for me is it's hard to generate good EPUBs, and also there's not, like, a good…
+
+01:20:19.270 --> 01:20:30.760
+<v Rebecca Koeser> Rebecca Koeser:  there's not a good distribution mechanism that makes it worth the while. If there was an easy way to, like, share EPUBs of articles that people could easily pull them into their tablets and e-readers, I think that'd be transformative, but we're not quite there.
+
+01:20:31.130 --> 01:20:40.939
+<v Andy Byers> Andy Byers: Yeah, so we have, we have actually a Nepub reader in the browser, this is EPUBJS.
+
+01:20:40.940 --> 01:20:41.640
+<v Rebecca Koeser> Rebecca Koeser:  Yeah, of course.
+
+01:20:41.640 --> 01:20:46.540
+<v Andy Byers> Andy Byers: And it's… it's okay. Like…
+
+01:20:46.980 --> 01:20:55.789
+<v Andy Byers> Andy Byers: Looking at that, would you know that that was an actual page? Probably not, you know? And there's, as you can see, this EPUB is very badly done.
+
+01:20:55.790 --> 01:20:56.190
+<v Rebecca Koeser> Rebecca Koeser:  Okay.
+
+01:20:56.420 --> 01:21:00.159
+<v Andy Byers> Andy Byers: It's been transformed, not by us.
+
+01:21:00.160 --> 01:21:08.500
+<v Rebecca Koeser> Rebecca Koeser:  Right. I think it is… it's hard to do well. There's lots of… this is what… I started looking at it, and there's, like, a thousand tools to do it, but it's hard to tell if any of them are gonna actually do well.
+
+01:21:08.500 --> 01:21:10.380
+<v Andy Byers> Andy Byers: Exactly, yeah.
+
+01:21:10.690 --> 01:21:18.679
+<v Rebecca Koeser> Rebecca Koeser:  Yeah. I see the… I see the open access badges. Is it easy to add, like, open code, open data badges? Is that something you all have built in, or…
+
+01:21:18.680 --> 01:21:28.240
+<v Andy Byers> Andy Byers: No, that was just something we added onto Books. Yeah, we actually built the Books plugin for one customer, not intending for anyone else to ever use it.
+
+01:21:28.450 --> 01:21:33.170
+<v Andy Byers> Andy Byers: And then once one customer saw it, every other one wanted us to install the plugin, so…
+
+01:21:33.170 --> 01:21:33.600
+<v Rebecca Koeser> Rebecca Koeser:  Good choice.
+
+01:21:33.600 --> 01:21:37.459
+<v Andy Byers> Andy Byers: It's just something we added there. Yeah, there's…
+
+01:21:37.740 --> 01:21:44.020
+<v Andy Byers> Andy Byers: Yeah, it's the kind of thing we can… we can look at. We've had a couple of requests for different types of badges as well.
+
+01:21:44.020 --> 01:21:52.939
+<v Rebecca Koeser> Rebecca Koeser:  There are lots of other ones around data, yeah. We've never really just had found the time to actually build any of them in, unfortunately. Okay. Okay.
+
+01:21:53.520 --> 01:21:56.860
+<v Rebecca Koeser> Rebecca Koeser:  Would that be something that, did you call them plugins or extensions?
+
+01:21:57.070 --> 01:22:16.400
+<v Andy Byers> Andy Byers: There's, yeah, there's plugins, and yeah, it's the kind of thing a plugin could handle. What, what we tend to do is, we add a hook into the HTML block where someone wants to add something for our plugin, so a single line update to the core of Janeway, and then the plugin, can basically,
+
+01:22:16.500 --> 01:22:34.509
+<v Andy Byers> Andy Byers: register… register content for the hook, basically, and then it can return HTML, which it can place inside the block. In fact, there's an example of that, here. So you can see in the navbar down the left-hand side, we've got the OA switchboards here. So this is a… there's a post-staff hook, on the nav block.
+
+01:22:34.600 --> 01:22:50.190
+<v Andy Byers> Andy Byers: And the OE Switchboard plugin registers for that hook and inserts, basically the HTML that it wants. So this LI here and that LI there get inserted in there. We don't have very many hooks, because most of the plugins we build ourselves
+
+01:22:50.190 --> 01:22:57.979
+<v Andy Byers> Andy Byers: But any developer who wanted to play around, you know, we're very well… very happy to add additional hooks, or to have people with PRs.
+
+01:22:57.980 --> 01:23:03.989
+<v Andy Byers> Andy Byers: With new hooks. There's also an event framework as well, so your plugin can register for events that happen.
+
+01:23:03.990 --> 01:23:04.790
+<v Rebecca Koeser> Rebecca Koeser:  599?
+
+01:23:05.040 --> 01:23:24.119
+<v Andy Byers> Andy Byers: Yeah, it's like signals, but a custom version. Obviously, there are Django Signals, and you can register for those as well, but these are, like, article moving between workflow, or article is published, or a brand new article is submitted. And so we have a bunch of those, like, one of the big example there is,
+
+01:23:24.120 --> 01:23:38.199
+<v Andy Byers> Andy Byers: DOJ, for example. So DOAJ registers for the publication, event, and runs some of its own code when that event occurs, and that sends the article to DOJ basically automatically.
+
+01:23:38.200 --> 01:23:38.520
+<v Rebecca Koeser> Rebecca Koeser:  Okay.
+
+01:23:38.660 --> 01:23:39.659
+<v Andy Byers> Andy Byers: Stuff like that.
+
+01:23:40.380 --> 01:23:40.830
+<v Rebecca Koeser> Rebecca Koeser:  That's great.
+
+01:23:40.830 --> 01:23:46.330
+<v Andy Byers> Andy Byers: Yeah, if you're interested in it, I can send the Discord link, and you can jump on there and…
+
+01:23:46.860 --> 01:24:05.319
+<v Rebecca Koeser> Rebecca Koeser:  I will hold off, because I, like you, I have too many things, but I think now I have more context to talk to Meredith, like, when she's thinking about how to connect things, I'll be able to advise a little more intelligently about the sort of data collective journal. That's a cool thing to be building out and connecting with your repository work, so…
+
+01:24:05.320 --> 01:24:06.030
+<v Meredith Martin> Meredith Martin:  Yeah, we've been…
+
+01:24:06.030 --> 01:24:06.910
+<v Andy Byers> Andy Byers: It's been really exciting.
+
+01:24:07.330 --> 01:24:19.679
+<v Meredith Martin> Meredith Martin:  We've been working a lot with Sarah on it using the Princeton Research Data Service, but we're not sure that it's sustainable in the long term to do it via Princeton, so… especially for the other collectives that are trying to do so.
+
+01:24:19.680 --> 01:24:27.570
+<v Rebecca Koeser> Rebecca Koeser:  Sarah will be sad that she missed this half of the meeting. Does anyone else have any questions? I don't know if you guys chatted before when I had to run the dog outside.
+
+01:24:29.200 --> 01:24:31.170
+<v Meredith Martin> Meredith Martin:  Haichi, anything we're missing?
+
+01:24:32.380 --> 01:24:39.019
+<v Haiqi Zhou> Haiqi Zhou:  I don't think so, I feel like we can just wait for the next meeting for the more, yeah, detailed instructions.
+
+01:24:39.210 --> 01:24:56.909
+<v Meredith Martin> Meredith Martin:  Awesome. All right. Well, Andy, this is great. I wrote to Caroline about the front end, so we… because I wanted to make sure we got some specs, but she has… she looks like she's been traveling, so if you hear anything, feel free to write to us. We just need to make sure we get the Schmidt Sciences and the, CDH logo.
+
+01:24:57.210 --> 01:24:58.000
+<v Meredith Martin> Meredith Martin:  Yeah, she…
+
+01:24:58.130 --> 01:25:00.680
+<v Andy Byers> Andy Byers: She's been in Brussels talking to the EU about.
+
+01:25:00.680 --> 01:25:01.120
+<v Meredith Martin> Meredith Martin:  So…
+
+01:25:01.120 --> 01:25:04.900
+<v Andy Byers> Andy Byers: supporting, Diamond Open Access Initiatives, so…
+
+01:25:04.900 --> 01:25:07.300
+<v Meredith Martin> Meredith Martin:  power to her, it's not like I want to bug her, I just want.
+
+01:25:07.300 --> 01:25:08.040
+<v Andy Byers> Andy Byers: Hell yeah.
+
+01:25:08.210 --> 01:25:18.320
+<v Meredith Martin> Meredith Martin:  know what we, you know, who to communicate with, so even if we knew that she'd assigned it to a designer, we could send the logo stuff to that designer, we just don't know who… we don't even know who it is.
+
+01:25:18.520 --> 01:25:27.830
+<v Andy Byers> Andy Byers: Yeah, Monday she'll be back around, so I'll try and ping her, then to get back to you. Yeah. But yeah. She's also launching the OJC this week as well, so…
+
+01:25:27.830 --> 01:25:40.900
+<v Meredith Martin> Meredith Martin:  Oh, I know, it's insane. I mean, really, we just… it's really just the logos, and then just us kind of approving the design, but I think we were talking about just doing a hiatus for the holidays anyway, between, like, December 15th and January 15th, just so we could kind of…
+
+01:25:40.980 --> 01:25:48.069
+<v Meredith Martin> Meredith Martin:  Kick the tires, get, you know, make sure we understood everything, and then also just give ourselves a break from submissions, and then…
+
+01:25:48.500 --> 01:26:04.169
+<v Meredith Martin> Meredith Martin:  formally, the CDH is gonna announce February 1st, so we might send something out to the board and to the audience on the MailChimp around January 15th, if that seems like the right amount of time. So we have a little bit of wiggle room, and of course, nobody wants to do this over the holidays, but if there's any way we can get as much done
+
+01:26:04.170 --> 01:26:09.340
+<v Meredith Martin> Meredith Martin:  before next Thursday's meeting, so that we can be really kicking the tires over those
+
+01:26:09.340 --> 01:26:11.300
+<v Meredith Martin> Meredith Martin:  Over that month, rather than, like.
+
+01:26:11.430 --> 01:26:15.029
+<v Meredith Martin> Meredith Martin:  You know, building the front-end stuff, that would be… that would be great.
+
+01:26:15.030 --> 01:26:15.620
+<v Andy Byers> Andy Byers: Yeah.
+
+01:26:15.750 --> 01:26:18.160
+<v Andy Byers> Andy Byers: Yeah, the site's up,
+
+01:26:18.280 --> 01:26:23.390
+<v Andy Byers> Andy Byers: So, I can send the link out for you all to register, get you in there, so you can start.
+
+01:26:23.390 --> 01:26:23.960
+<v Meredith Martin> Meredith Martin:  drink.
+
+01:26:23.960 --> 01:26:32.239
+<v Andy Byers> Andy Byers: fiddling around, and when we do the demo, or the next session next week, we'll do it on your install, so we'll be looking at the actual settings. Great.
+
+01:26:32.560 --> 01:26:37.109
+<v Andy Byers> Andy Byers: And we can… I can ask you questions about some of them, and we can actually fill some of them in as we go.
+
+01:26:37.110 --> 01:26:38.030
+<v Meredith Martin> Meredith Martin:  Fantastic.
+
+01:26:38.030 --> 01:26:39.179
+<v Andy Byers> Andy Byers: Tick boxes, so we'll do that.
+
+01:26:39.180 --> 01:26:48.529
+<v Meredith Martin> Meredith Martin:  Fantastic, and I mean, we just… we want to know, kind of, how to… how to access the CMS for the front-end copy, too, because we're going to be moving that over, but also revising it a little, so that'll be a big question. Yeah.
+
+01:26:48.530 --> 01:26:54.759
+<v Andy Byers> Andy Byers: I mean, that's the kind of thing we'll go over, and you can just get cracking on that, once we've gone over it next week, you can just start loading stuff in, yeah.
+
+01:26:54.760 --> 01:26:58.330
+<v Meredith Martin> Meredith Martin:  Yeah, well, we aren't quite ready to, but we're working on it, yeah, and just…
+
+01:26:58.330 --> 01:27:04.050
+<v Andy Byers> Andy Byers: Whenever you're ready, you'll have access, and you'll… we'll have gone through how it works, so you'll be able to get started whenever you're ready to go.
+
+01:27:04.050 --> 01:27:19.610
+<v Meredith Martin> Meredith Martin:  Great. Yeah, and it's mostly just the logo stuff. And, you know, do you guys, like, do you guys require Janeway have a logo, or OJC has a logo, or whatever? You know, because if you do, we would love to have it. We want to signal that this is collaborative, and that we're part of the network, but we don't know what the protocol is for that.
+
+01:27:19.810 --> 01:27:26.739
+<v Andy Byers> Andy Byers: Yeah, some of our… some of our journals have the… have the Jamway logo, some of them just have a link as well, powered by, you know, kind of thing.
+
+01:27:26.740 --> 01:27:30.620
+<v Meredith Martin> Meredith Martin:  What do you guys prefer? And also, how do we credit your labor on the site?
+
+01:27:31.570 --> 01:27:40.150
+<v Andy Byers> Andy Byers: You can… I think what we would, what we've requested in the past is we could do a Powered by Janeway logo at the… at the base, in the footer, would be good. But is that enough?
+
+01:27:40.150 --> 01:27:40.740
+<v Meredith Martin> Meredith Martin:  Can't we be like.
+
+01:27:40.740 --> 01:27:41.180
+<v Andy Byers> Andy Byers: Yeah.
+
+01:27:41.180 --> 01:27:42.430
+<v Meredith Martin> Meredith Martin:  And thanks to Andy.
+
+01:27:42.530 --> 01:27:45.480
+<v Andy Byers> Andy Byers: Please don't, Jesus, no.
+
+01:27:47.170 --> 01:27:50.639
+<v Meredith Martin> Meredith Martin:  Alright, well, well, the Janeway logo is good, I mean, powered by Janeway sounds fine.
+
+01:27:50.640 --> 01:27:51.540
+<v Rebecca Koeser> Rebecca Koeser:  We'll figure it out.
+
+01:27:51.540 --> 01:27:54.279
+<v Andy Byers> Andy Byers: I'd like… if anything, I'd like less visibility.
+
+01:27:54.280 --> 01:27:55.670
+<v Meredith Martin> Meredith Martin:  Yeah, that's true, that's true.
+
+01:27:55.670 --> 01:28:07.370
+<v Andy Byers> Andy Byers: I feel like I've stuck my head too far above the parapet as far as technology and science and humanities goes at this point. Far too many people know who I am, so…
+
+01:28:07.370 --> 01:28:19.880
+<v Meredith Martin> Meredith Martin:  Alright, well, your secret's safe with us. Thank you. We'll see you next week, and if anything changes before the meeting, let us know as soon as possible, because we're wrangling so many people, so to schedule as many people in the room for that will be the most important.
+
+01:28:20.240 --> 01:28:28.519
+<v Andy Byers> Andy Byers: Yeah. If I'm not there, I've got a backup already, so I've already spoken to Mauro, he'll be there. Okay. If anything happens to me, if I get hit by a bus or whatever.
+
+01:28:28.520 --> 01:28:29.680
+<v Meredith Martin> Meredith Martin:  Oh, God, please, no.
+
+01:28:30.700 --> 01:28:31.400
+<v Meredith Martin> Meredith Martin:  Don't even say that.
+
+01:28:31.730 --> 01:28:34.510
+<v Andy Byers> Andy Byers: I'm gonna go and have a beer now, it's 5 o'clock on a Friday, so…
+
+01:28:34.510 --> 01:28:37.379
+<v Meredith Martin> Meredith Martin:  Excellent! Well, cheers, I wish I could buy it for you. Okay, we'll see you next week.
+
+01:28:37.380 --> 01:28:38.290
+<v Andy Byers> Andy Byers: See you later.
+
+01:28:38.290 --> 01:28:39.350
+<v Haiqi Zhou> Haiqi Zhou:  Thank you.
+
+01:28:39.350 --> 01:28:39.969
+<v Meredith Martin> Meredith Martin:  Bye! Bye-bye.
+
