@@ -1,1 +1,89 @@
-{"publish":{"publish_pages_app":true,"publish_sha":"","publish_iso_date":"","publish_static_site":false},"users":[{"login_name":"tanyaclement","avatar_url":"https://avatars.githubusercontent.com/u/1213771?v=4","admin":true}],"project":{"github_org":"tanyaclement","is_private":false,"title":"Janeway Migration","description":"Getting to know Janeway.","language":"en","slug":"janeway","creator":"tanyaclement","authors":"","media_player":"avannotate","auto_populate_home_page":true,"additional_users":[],"tags":{"tagGroups":[{"category":"Speaker","color":"#ADFFD9"}],"tags":[{"category":"Speaker","tag":"Andy Byers"},{"category":"Speaker","tag":"Meredith Martin"},{"category":"Speaker","tag":"Amelia Acker"},{"category":"Speaker","tag":"Lily Brewer"},{"category":"Speaker","tag":"Sarah Reiff Conell"},{"category":"Speaker","tag":"Rebecca Koeser"},{"category":"Speaker","tag":"Haiqi Zhou"}]},"created_at":"2025-12-08T18:10:57.272Z","updated_at":"2025-12-28T21:34:37.621Z","generate_pages_site":true},"annotations":{},"events":{},"eventOrder":[],"pages":{"6d535f8a-4a5a-4b27-a829-4b7f9d8bf55a":{"content":[],"created_at":"2025-12-08T18:10:57.290Z","created_by":"tanyaclement","title":"Janeway Testing","updated_at":"2025-12-08T18:10:57.290Z","updated_by":"tanyaclement","autogenerate":{"enabled":true,"type":"home"}}},"pageOrder":["6d535f8a-4a5a-4b27-a829-4b7f9d8bf55a"]}
+{
+  "publish": {
+    "publish_pages_app": true,
+    "publish_sha": "",
+    "publish_iso_date": "",
+    "publish_static_site": false
+  },
+  "users": [
+    {
+      "login_name": "tanyaclement",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1213771?v=4",
+      "admin": true
+    }
+  ],
+  "project": {
+    "github_org": "tanyaclement",
+    "is_private": false,
+    "title": "Janeway Migration",
+    "description": "Getting to know Janeway.",
+    "language": "en",
+    "slug": "janeway",
+    "creator": "tanyaclement",
+    "authors": "",
+    "media_player": "avannotate",
+    "auto_populate_home_page": true,
+    "additional_users": [],
+    "tags": {
+      "tagGroups": [
+        {
+          "category": "Speaker",
+          "color": "#ADFFD9"
+        }
+      ],
+      "tags": [
+        {
+          "category": "Speaker",
+          "tag": "Andy Byers"
+        },
+        {
+          "category": "Speaker",
+          "tag": "Meredith Martin"
+        },
+        {
+          "category": "Speaker",
+          "tag": "Amelia Acker"
+        },
+        {
+          "category": "Speaker",
+          "tag": "Lily Brewer"
+        },
+        {
+          "category": "Speaker",
+          "tag": "Sarah Reiff Conell"
+        },
+        {
+          "category": "Speaker",
+          "tag": "Rebecca Koeser"
+        },
+        {
+          "category": "Speaker",
+          "tag": "Haiqi Zhou"
+        }
+      ]
+    },
+    "created_at": "2025-12-08T18:10:57.272Z",
+    "updated_at": "2026-01-09T22:19:36.561Z",
+    "generate_pages_site": true
+  },
+  "annotations": {},
+  "events": {},
+  "eventOrder": [],
+  "pages": {
+    "6d535f8a-4a5a-4b27-a829-4b7f9d8bf55a": {
+      "content": [],
+      "created_at": "2025-12-08T18:10:57.290Z",
+      "created_by": "tanyaclement",
+      "title": "Janeway Testing",
+      "updated_at": "2025-12-08T18:10:57.290Z",
+      "updated_by": "tanyaclement",
+      "autogenerate": {
+        "enabled": true,
+        "type": "home"
+      }
+    }
+  },
+  "pageOrder": [
+    "6d535f8a-4a5a-4b27-a829-4b7f9d8bf55a"
+  ]
+}
