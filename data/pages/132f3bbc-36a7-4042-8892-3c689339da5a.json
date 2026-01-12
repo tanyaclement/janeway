@@ -1,0 +1,22 @@
+{
+  "content": [
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "text": "this is testing"
+        }
+      ]
+    }
+  ],
+  "title": "testing",
+  "autogenerate": {
+    "enabled": false,
+    "type": "custom"
+  },
+  "slug": "testing",
+  "created_at": "2026-01-12T22:25:01.321Z",
+  "created_by": "tanyaclement",
+  "updated_at": "2026-01-12T22:25:01.321Z",
+  "updated_by": "tanyaclement"
+}
