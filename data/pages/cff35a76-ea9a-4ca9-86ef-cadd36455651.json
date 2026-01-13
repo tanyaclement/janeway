@@ -9,7 +9,7 @@
       ]
     },
     {
-      "uuid": "dab05bb5-c4fb-4951-a9a4-2b333cef668e",
+      "uuid": "de503ce9-48f0-4dbe-b12a-7b64c15a0674",
       "includes": [
         "media",
         "annotations",
@@ -18,7 +18,7 @@
       ],
       "start": 20,
       "end": 27,
-      "file": "5ae751f8-1354-4791-b27c-fd4555e34779",
+      "file": "c5fc0e49-670b-4e1a-9b03-f88053a76638",
       "type": "event",
       "children": [
         {
@@ -43,6 +43,6 @@
   "slug": "testing-clips",
   "created_at": "2026-01-13T15:13:13.768Z",
   "created_by": "tanyaclement",
-  "updated_at": "2026-01-13T15:13:13.768Z",
+  "updated_at": "2026-01-13T15:14:50.332Z",
   "updated_by": "tanyaclement"
 }
