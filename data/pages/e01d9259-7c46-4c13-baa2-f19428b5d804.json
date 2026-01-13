@@ -35,10 +35,10 @@
   "created_by": "tanyaclement",
   "title": "Janeway Testing",
   "slug": "janeway-testing",
-  "updated_at": "2026-01-13T15:18:18.649Z",
+  "updated_at": "2026-01-13T15:18:28.725Z",
   "updated_by": "tanyaclement",
   "autogenerate": {
-    "enabled": false,
+    "enabled": true,
     "type": "event",
     "type_id": "de503ce9-48f0-4dbe-b12a-7b64c15a0674"
   }
