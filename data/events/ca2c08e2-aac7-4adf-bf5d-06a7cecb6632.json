@@ -1,7 +1,7 @@
 {
   "audiovisual_files": {
     "4f060f27-d558-4e29-9034-1c208f884c47": {
-      "label": "December 17, 2025, Part Two",
+      "label": "December 7, 2025, Part One",
       "is_offline": false,
       "file_type": "Video",
       "file_url": "https://archive.org/download/gmt-20251205-153142-recording-avo-640x-360/GMT20251205-153142_Recording_avo_640x360.mp4",
@@ -22,12 +22,12 @@
     }
   ],
   "citation": "",
-  "label": "December 17, 2025, Part Two",
+  "label": "December 7, 2025, Part One",
   "av_file_order": [
     "4f060f27-d558-4e29-9034-1c208f884c47"
   ],
   "created_at": "2026-01-16T23:08:26.921Z",
   "created_by": "tanyaclement",
-  "updated_at": "2026-01-16T23:35:08.575Z",
+  "updated_at": "2026-01-16T23:52:11.176Z",
   "updated_by": "tanyaclement"
 }
