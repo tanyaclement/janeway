@@ -1,7 +1,7 @@
 {
   "audiovisual_files": {
     "5ae751f8-1354-4791-b27c-fd4555e34779": {
-      "label": "December 7, 2025, Part One",
+      "label": "December 17, 2025, Part Two",
       "is_offline": false,
       "file_type": "Video",
       "file_url": "https://ia903409.us.archive.org/9/items/zoom-of-1st-janeway-training-20251208-t-175438-z-1-001/GMT20251217-153518_Recording_as_2150x1884.mp4",
@@ -22,12 +22,12 @@
     }
   ],
   "citation": "",
-  "label": "December 7, 2025, Part One",
+  "label": "December 17, 2025, Part Two",
   "av_file_order": [
     "5ae751f8-1354-4791-b27c-fd4555e34779"
   ],
   "created_at": "2025-12-28T21:34:37.389Z",
   "created_by": "tanyaclement",
-  "updated_at": "2026-01-16T23:31:04.947Z",
+  "updated_at": "2026-01-16T23:45:56.615Z",
   "updated_by": "tanyaclement"
 }
